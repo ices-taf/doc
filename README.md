@@ -17,8 +17,8 @@ ICES data services.
 Website | Purpose
 ------- | -------
 [taf.ices.dk](http://taf.ices.dk) | Main landing page
-[ices-taf.github.io](https://ices-taf.github.io)
-| Technical overview and design comments
+[ices-taf.github.io](https://ices-taf.github.io) |
+Technical overview and design comments
 [github.com/ices-taf](https://github.com/ices-taf)| Assessments (R scripts)
 [github.com/ices-taf/doc](https://github.com/ices-taf/doc) | User guidelines
 [github.com/ices-tools-prod](https://github.com/ices-tools-prod) | R packages
