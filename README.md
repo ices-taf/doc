@@ -1,4 +1,22 @@
-[<img src="http://ices.dk/SiteCollectionImages/Data%20network/taf-cogs@370px_retouched_ABL.png?RenditionID=5">](http://taf.ices.dk)
+# TAF User Guidelines
 
-This is an empty repository, here purely to create and assign issues related to
-the TAF project workflow.
+## Introduction
+
+### Aim
+
+The Transparent Assessment Framework (TAF) is a framework to organize data,
+methods, and results used in ICES assessments, so they are easy to find and
+rerun later with new data.
+
+It will provide an online archive of final assessment for each year, for all
+stock categories. All data input and outputs are linked to existing or upcoming
+ICES data services.
+
+### Websites
+
+-- | --
+**[taf.ices.dk](http://taf.ices.dk)** | Main landing page
+**[ices-taf.github.io](https://ices-taf.github.io)** | Technical overview and design comments
+**[github.com/ices-taf](https://github.com/ices-taf)**| Assessments (R scripts)
+**[github.com/ices-taf/doc](https://github.com/ices-taf/doc)** | User guidelines
+**[github.com/ices-tools-prod](https://github.com/ices-tools-prod)** | R packages
