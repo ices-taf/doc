@@ -14,7 +14,7 @@ ICES data services.
 
 ### Websites
 
--- | --
+--- | ---
 **[taf.ices.dk](http://taf.ices.dk)** | Main landing page
 **[ices-taf.github.io](https://ices-taf.github.io)** | Technical overview and design comments
 **[github.com/ices-taf](https://github.com/ices-taf)**| Assessments (R scripts)
