@@ -8,14 +8,14 @@ The Transparent Assessment Framework (TAF) is a framework to organize data,
 methods, and results used in ICES assessments, so they are easy to find and
 rerun later with new data.
 
-It will provide an online archive of final assessment for each year, for all\
+It will provide an online archive of final assessment for each year, for all
 stock categories. All data input and outputs are linked to existing or upcoming
 ICES data services.
 
 ### Websites
 
-Website | Purpose
-------- | -------
+URL | Purpose
+--- | -------
 [taf.ices.dk](http://taf.ices.dk) | Main landing page
 [ices-taf.github.io](https://ices-taf.github.io) | Technical overview and design comments
 [github.com/ices-taf](https://github.com/ices-taf)| Assessments (R scripts)
