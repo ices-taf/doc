@@ -21,5 +21,5 @@ URL | Purpose
 [github.com/ices-taf](https://github.com/ices-taf)| Assessments (R scripts)
 [github.com/ices-taf/doc](https://github.com/ices-taf/doc) | User guidelines
 [github.com/ices-tools-prod](https://github.com/ices-tools-prod) | R packages
-[github.com/ices-taf/doc/projects/1](https://github.com/ices-taf/doc/projects/1) | TAF development project board
+[github.com/ices-taf/doc/projects/1](https://github.com/ices-taf/doc/projects/1?fullscreen=true) | TAF development project board
 [github.com/ices-taf/doc/milestones](https://github.com/ices-taf/doc/milestones) | TAF project monthly sprints
