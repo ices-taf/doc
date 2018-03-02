@@ -106,11 +106,11 @@ function that we'll be using to run the analysis, `DLS3.2`.
 
 So we start by creating an empty folder, we get the data from the previous step,
 we apply the DLS method 3.2, and the results are found in the `model` folder as
-`dls.txt`. It outlines the computations behind the advice. The advice is 291 tons,
-and it is coming from the last advice 243, and some series of survey indices. On
-average they've been going up by 43%, and the DLS 3.2 rule is that we're not
-going to increase the advice by 43%, but rather by maximum of 20%, so the advice
-is 291.
+`dls.txt`. It outlines the computations behind the advice. The advice is 291
+tons, and it is coming from the last advice 243, and some series of survey
+indices. On average they've been going up by 43%, and the DLS 3.2 rule is that
+we're not going to increase the advice by 43%, but rather by maximum of 20%, so
+the advice is 291.
 
 ### output.R
 
