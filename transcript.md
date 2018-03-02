@@ -11,20 +11,20 @@ with new data. If you look at the diagram showing the TAF workflow and the
 different components, it's about going from data to analysis and results.
 
 We start with getting data from ICES databases and other data sources. The first
-step in the data folder is to gather the data, and to filter and preprocess the
-data that will finally be used in the assessment. That is one of the major aims
-of TAF, to document and script this process of preparing the data. Describing
-where they came from and what was done to them, before they were entered in the
-assessment model.
+step in the `data` folder is to gather the data, and to filter and preprocess
+the data that will finally be used in the assessment. That is one of the major
+aims of TAF, to document and script this process of preparing the data.
+Describing where they came from and what was done to them, before they were
+entered in the assessment model.
 
-Moving on to the input folder, the task there is to convert the data from the
+Moving on to the `input` folder, the task there is to convert the data from the
 most general format, crosstab year by age usually, into the model-specific
-format. That will depend on the model: it can be one big text file, or an R
-list, or a number of input text files, whatever the model will read. The model
+format. That will depend on the model: it can be one big text file, an R list,
+or a number of input text files, whatever the model will read. The `model`
 folder is about running the model. The model will be coming from either a
-toolbox of commonly used models or any model can be used within this folder.
+toolbox of commonly used models, or any model can be used within this folder.
 
-The final step, output, is where we convert the model-specific output into more
+The final step, `output`, is where we convert the model-specific output into more
 general text files, things like numbers at age or fishing mortalities, SSB,
 recruitment, and so on. The final step is to upload those results into the ICES
 databases: the stock assessment graphs, tables and so forth.
@@ -67,17 +67,17 @@ Let's just dive into `data.R`. At the top of the script we have comments
 reminding us what is the purpose of the script: to preprocess the data and to
 write out the TAF data tables. In the comment we also write the state before the
 script is run and after the script is run, in terms of the files and where they
-are. So we start with `catch.csv` and `surveys_all.csv` in the TAF database, and
-after the script is run we will have `catch.csv`, `summary.csv`, `survey.csv`,
+are. So we start with `catch.csv` and `surveys_all.csv` in the TAF database.
+After the script is run we will have `catch.csv`, `summary.csv`, `survey.csv`,
 all found in a new folder called `data`.
 
 We start by loading the `icesTAF` package and create an empty directory. We next
 download the data, the catch and the survey, and we start preprocessing the
 data. We select the years of interest and the surveys of interest. We scale the
-surveys and create a combined index, as the average of the three surveys, and
-this is the catch data. Very short history of the catches for this fishery, and
-this is the survey data. We have selected the years and those three surveys, but
-importantly we have also created a combined index and that is the actual input
+surveys and create a combined index, as the average of the three surveys. This
+is the catch data, very short history of the catches for this fishery, and this
+is the survey data. We have selected the years and those three surveys, but
+importantly we have also created a combined index, and that is the actual input
 data for the assessment. We finalize the tables and we write them out to the
 `data` directory.
 
@@ -92,15 +92,15 @@ is calculated.
 The next script that is run is `input.R`. It is a short script, where we will
 convert the data to model format and write out the model input files. In other
 words, we will start with catch and survey in the data folder, but after the
-script is run we will have `input.RData` in a folder called input. So we run
+script is run we will have `input.RData` in a folder called `input`. So we run
 those commands, again loading the `icesTAF` package, creating the directory. We
 simply fetch the catch and the survey data frames, and save them together in one
 file, `input.RData`.
 
 ### model.R
 
-The third script `model.R` runs the model and the results will be written out as
-`dls.txt`, inside the `model` folder. Now it's not enough just to have the
+The third script `model.R` runs the model, and the results will be written out
+as `dls.txt` inside the `model` folder. Now it's not enough just to have the
 `icesTAF` package. We also fetch a package called `icesAdvice`, containing the
 function that we'll be using to run the analysis, `DLS3.2`.
 
@@ -114,24 +114,23 @@ the advice is 291.
 
 ### output.R
 
-The `output.R` script is about extracting those results of interest and writing
+The `output.R` script is about extracting those results of interest, and writing
 out the TAF output tables. We're going to read in the `dls.txt`, and we're
 actually just going to copy it to the `output` folder. In more complicated stock
 assessments this would of course take more steps, but here we just copy between
-`model` into `output`.
+`model` and `output`.
 
 ### report.R
 
-Finally, in the `report.R`, we're going to prepare plots and tables that could
-be included in the stock assessment report. Taking the summary from the `data`
+Finally, in `report.R`, we're going to prepare plots and tables that could be
+included in the stock assessment report. Taking the summary from the `data`
 step, we're just going to be plotting the survey as a PNG file. So we load the
-`icesTAF` package, we create an empty directory `report`, we read in the
-summary, and we create the plot, and we also write out the summary table, but
-this time rounding the catch and the index values, to make it look better in a
-report.
+`icesTAF` package, create an empty directory `report`, read in the summary, and
+create the plot. We also write out the summary table, but this time rounding the
+catch and the index values, to make it look better in a report.
 
 Inside the `report` folder, we now have `summary.csv` and `survey.png`. The
-survey looks simple enough, ready to be pasted into the report, and the summary
+survey looks simple enough, ready to be pasted into the report. The summary
 rounds the indices, so that they will look better in a report, maybe with three
 decimals. So you would just copy this into the report, essentially.
 
@@ -145,13 +144,14 @@ it has some good guidelines and references on how to use that function.
 We've also been using some R functions from the `icesTAF` package. If we just
 take a look at the main help page for the `icesTAF` package, it lists all the
 functions by their groups. Some of them we've been using to read and write
-files, we've been using `cp` and `mkdir` to manipulate files. We used `tafpng`
-to open a PNG graphics device, to draw an image and write it in PNG format.
+files, and we've been using `cp` and `mkdir` to manipulate files. We used
+`tafpng` to open a PNG graphics device, to draw an image and write it in PNG
+format.
 
 Most of the `icesTAF` functions are very short and simple, but they're simply
 there to make the scripts look more readable. They're convenient shorthand
 functions, to get to the point without some boilerplate code that is needed. For
-example, in the `report.R` we were using `tafpng` like that, so it uses the
+example, in `report.R` we were using `tafpng` like that, so it uses the
 suggested image size and so forth.
 
 ## sourceTAF & sourceAll
@@ -161,24 +161,25 @@ run the scripts. There are convenient functions for that as well: `sourceTAF` is
 to run a single script and `sourceAll` is to run all of them. Let's take a look
 at how we can use those, instead of running line by line like we were doing.
 
-We can start from scratch with nothing in here. We can run them one by one:
-`sourceTAF("data.R")`. Very similar to the base R function to source. It adds
-some sort of helpful message, with the time and what it's doing. But more
-importantly, we can run all of them: `sourceAll()`. They run blazing fast, it's
-`data.R`, `input.R`, `model.R`, `output.R`, and `report.R`. That is how
-assessment will be run on TAF once they're uploaded, using `sourceAll`.
+We can start from scratch with nothing in here. We can run them one by one,
+`sourceTAF("data.R")`, very similar to the base R function to source. It adds a
+helpful message, with the time and what it's doing. But more importantly, we can
+run all of them with `sourceAll()`. They run blazing fast: `data.R`, `input.R`,
+`model.R`, `output.R`, and `report.R`. That is how assessment will be run on TAF
+once they're uploaded, using `sourceAll`.
 
 ## Summary
 
 What we have learned in this video is about the overall TAF workflow. We used as
 an example the North Sea spotted ray, as a fully scripted analysis. We also have
 on the GitHub TAF page other examples that can be studied in the same way. That
-is Icelandic haddock, North Sea cod, and Eastern Channel plaice. They are all
-age based assessments. The [Eastern Channel
+is Icelandic haddock, North Sea cod, and Eastern Channel plaice.
+
+They are all age-based assessments: the [Eastern Channel
 plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R
 packages, and the [North Sea cod](https://github.com/ices-taf/2016_cod-347d) is
 a SAM model. The [Icelandic haddock](https://github.com/ices-taf/2015_had-iceg)
-is an AD Model Builder age based model, and we'll be adding more examples there
+is an AD Model Builder age-based model, and we'll be adding more examples there
 as we go.
 
 In a future video, we will be covering the TAF web interface, where assessments
