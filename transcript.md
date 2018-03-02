@@ -31,9 +31,9 @@ the ICES databases: the stock assessment graphs, tables and so forth.
 
 ## R scripts
 
-Behind each of those folders, data, input, model, and output, there is an R
-script that governs what takes place. So let's take a look at those scripts in
-more detail.
+Behind each of those folders, `data`, `input`, `model`, and `output`, there is
+an R script that governs what takes place. So let's take a look at those scripts
+in more detail.
 
 The first one is `data.R`. Again, that is where we pre-process the data and
 write out what we call TAF data tables. They're very simple crosstab text files,
