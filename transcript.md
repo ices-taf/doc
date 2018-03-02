@@ -57,9 +57,9 @@ describing the data that are uploaded into the TAF system.
 So what we're going to be doing for the rest of the video is to go through the
 actual analysis behind the 2015 ICES advice for North Sea spotted ray. The R
 scripts can be found on GitHub. In the address you can see
-`ices-taf/2015_rjm-347d` and if you want to work along while you watch the
-video, you can download these from GitHub and work with them on your own
-computer.
+[ices-taf/2015_rjm-347d](https://github.com/ices-taf/2015_rjm-347d) and if you
+want to work along while you watch the video, you can download these from GitHub
+and work with them on your own computer.
 
 ### data.R
 
