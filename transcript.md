@@ -175,9 +175,12 @@ So what we have learned in this video is about the overall TAF workflow. We used
 as an example the North Sea spotted ray, as a fully scripted analysis. We also
 have on the GitHub TAF page other examples that can be studied in the same way.
 That is Icelandic haddock, North Sea cod, and Eastern Channel plaice. They are
-all age based assessments. The Eastern Channel plaice uses the FLR suite of R
-packages, and the North Sea cod is a SAM model. The Icelandic haddock is an AD
-Model Builder age based model, and we'll be adding more examples there as we go.
+all age based assessments. The [Eastern Channel
+plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R
+packages, and the [North Sea cod](https://github.com/ices-taf/2016_cod-347d) is
+a SAM model. The [Icelandic haddock](https://github.com/ices-taf/2015_had-iceg)
+is an AD Model Builder age based model, and we'll be adding more examples there
+as we go.
 
 In a future video, we will be covering the TAF web interface, where assessments
 can be browsed, run, and modified, and how web services can be used to upload,
