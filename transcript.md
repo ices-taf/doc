@@ -6,7 +6,7 @@ separate steps, and what we'll end up with is clean organized and reproducible
 assessments.
 
 The aim of TAF is to implement a framework to organize *data*, *methods*, and
-*results* used in ICES assessments, so they are easy to *find* and *rerun* later
+*results* used in ICES assessments, so they are easy to find and rerun later
 with new data. If you look at the diagram showing the TAF workflow and the
 different components, it's about going from data to analysis and results.
 
