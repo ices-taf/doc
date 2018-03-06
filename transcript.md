@@ -2,7 +2,7 @@
 
 In this video we'll be looking at the TAF workflow, which is very much centered
 on R scripts that are run sequentially. They structure the stock assessment into
-separate steps, and what we'll end up with is clean organized and reproducible
+separate steps, and what we'll end up with is clean, organized, and reproducible
 assessments.
 
 The aim of TAF is to implement a framework to organize *data*, *methods*, and
