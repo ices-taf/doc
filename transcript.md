@@ -171,9 +171,10 @@ once they're uploaded, using `sourceAll`.
 ## Summary
 
 What we have learned in this video is about the overall TAF workflow. We used as
-an example the North Sea spotted ray, as a fully scripted analysis. We also have
-on the GitHub TAF page other examples that can be studied in the same way. That
-is Icelandic haddock, North Sea cod, and Eastern Channel plaice.
+an example the [North Sea spotted
+ray](https://github.com/ices-taf/2015_rjm-347d), as a fully scripted analysis.
+We also have on the GitHub TAF page other examples that can be studied in the
+same way. That is Icelandic haddock, North Sea cod, and Eastern Channel plaice.
 
 They are all age-based assessments: the [Eastern Channel
 plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R
