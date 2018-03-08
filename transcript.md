@@ -24,8 +24,8 @@ or a number of input text files, whatever the model will read. The `model`
 folder is about running the model. The model will be coming from either a
 toolbox of commonly used models, or any model can be used within this folder.
 
-The final step, `output`, is where we convert the model-specific output into more
-general text files, things like numbers at age or fishing mortalities, SSB,
+The final step, `output`, is where we convert the model-specific output into
+more general text files, things like numbers at age or fishing mortalities, SSB,
 recruitment, and so on. The final step is to upload those results into the ICES
 databases: the stock assessment graphs, tables and so forth.
 
