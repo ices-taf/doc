@@ -12,6 +12,8 @@ TAF tutorial 1: Simple assessment
 -   [ICES packages](#ices-packages)
 -   [Summary](#summary)
 
+<br>
+
 TAF workflow
 ------------
 
