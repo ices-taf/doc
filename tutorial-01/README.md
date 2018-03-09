@@ -1,19 +1,20 @@
 TAF tutorial 1: Simple assessment
 ================
 
--   TAF workflow
--   R scripts
--   North Sea spotted ray
-    -   data.R
-    -   input.R
-    -   model.R
-    -   output.R
-    -   report.R
--   ICES packages
--   Summary
+1.  [TAF workflow](#taf-workflow)
+2.  [R scripts](#r-scripts)
+3.  [North Sea spotted ray](#north-sea-spotted-ray)
+    -   [data.R](#datar)
+    -   [input.R](#inputr)
+    -   [model.R](#modelr)
+    -   [output.R](#outputr)
+    -   [report.R](#reportr)
+
+4.  [ICES packages](#ices-packages)
+5.  [Summary](#summary)
 
 TAF workflow
-============
+------------
 
 In this tutorial we'll be looking at the TAF workflow, which is centered on R scripts that are run sequentially. They structure the stock assessment into separate steps and what we'll end up with is clean, organized, and reproducible assessments.
 
@@ -30,7 +31,7 @@ Moving on to the `input` folder, the task there is to convert the data from the 
 The final step, `output`, is where we convert the model-specific output into more general text files, things like numbers at age or fishing mortalities, SSB, and recruitment. Those results are then uploaded into the ICES databases: the stock assessment graphs, tables and so forth.
 
 R scripts
-=========
+---------
 
 Behind each of those folders, `data`, `input`, `model`, and `output`, there is an R script that governs what takes place. Let's take a look at those scripts in more detail.
 
@@ -41,12 +42,11 @@ In `model.R` we run the analysis, often just invoking a shell command or an R pa
 Other scripts that we'll be working with are `report.R`, which is an optional script where scientists can prepare any plots and tables that they are going to put in the report, and finally there's `upload.R`, a very short script describing the data that are uploaded into the TAF system.
 
 North Sea spotted ray
-=====================
+---------------------
 
 What we're going to do for the rest of the tutorial is to go through the actual analysis behind the 2015 ICES advice for North Sea spotted ray. The R scripts can be found on GitHub at <https://github.com/ices-taf/2015_rjm-347d> and if you want to work along while you read the tutorial, you can download and work with them on your own computer.
 
-data.R
-------
+### data.R
 
 Let's just dive into `data.R`. At the top of the script we have comments reminding us what is the purpose of the script: to preprocess the data and to write out the TAF data tables. In the comment we also write the state before the script is run and after the script is run, in terms of the files and where they are. So we start with `catch.csv` and `surveys_all.csv` in the TAF database. After the script is run we'll have `catch.csv`, `summary.csv`, and `survey.csv`, all found in a new folder called `data`.
 
@@ -90,8 +90,7 @@ We start by loading the `icesTAF` package and create an empty directory. We next
 
 What we have done is to create a `data` folder containing the data that will be used in the assessment. In `catch.csv` we have the catch history, in `summary.csv` we have combined the catch history with the index that will be used, and `survey.csv` documents how the index is calculated.
 
-input.R
--------
+### input.R
 
 ``` {.r}
 ## Convert data to model format, write model input files
@@ -114,8 +113,7 @@ save(catch, survey, file="input/input.RData")
 
 The next script is `input.R`. It's a short script, where we'll convert the data to model format and write out the model input files. In other words, we'll start with catch and survey in the data folder, but after the script is run we'll have `input.RData` in a folder called `input`. As before, we load the `icesTAF` package and create the directory. We then simply fetch the catch and the survey data frames, and save them together in one file, `input.RData`.
 
-model.R
--------
+### model.R
 
 The third script `model.R` runs the model, and the results will be written out as `dls.txt` inside the `model` folder. Now it's not enough just to have the `icesTAF` package. We also use a package called `icesAdvice`, containing the function that we'll be using to run the analysis, `DLS3.2`.
 
@@ -144,8 +142,7 @@ write.dls(dls, "model/dls.txt")
 
 We start by creating an empty folder, then get the data from the previous step, apply DLS method 3.2, and the results are found in the `model` folder as `dls.txt`. It outlines the computations behind the advice. The advice is 291 t, coming from the last advice of 243 t and a series of survey indices. On average they've been going up by 43%, and the DLS 3.2 rule is that we're not going to increase the advice by 43%, but rather by maximum of 20%, so the advice is 291 t.
 
-output.R
---------
+### output.R
 
 ``` {.r}
 ## Extract results of interest, write TAF output tables
@@ -165,8 +162,7 @@ cp("model/dls.txt", "output")
 
 The `output.R` script is about extracting those results of interest, and writing out the TAF output tables. We read in `dls.txt` and simply copy it to the `output` folder. In more complicated stock assessments this would of course take more steps, but here we just copy between `model` and `output`.
 
-report.R
---------
+### report.R
 
 Finally, in `report.R`, we're going to prepare plots and tables that could be included in the stock assessment report. Taking the summary from the `data` step, we'll plot the survey as a PNG file. So we load the `icesTAF` package, create an empty directory `report`, read in the summary, and create the plot. We also write out the summary table, but this time rounding the catch and the index values, to make it look better in a report.
 
@@ -200,7 +196,7 @@ write.taf(summary, "report/summary.csv")
 Inside the `report` folder, we now have `summary.csv` and `survey.png`. The survey plot can be pasted into the report. In the summary table, we have rounded the indices to three decimals, so it's also ready for the report.
 
 ICES packages
-=============
+-------------
 
 In the R scripts we've been using some commands from ICES packages. Let's take a look at, for example, `DLS3.2`. The help page describes it as a function to apply ICES method 3.2, and it has some good guidelines and references on how to use that function.
 
@@ -237,7 +233,7 @@ sourceAll()
 That's how final assessments will be run on TAF once they're uploaded, using `sourceAll`.
 
 Summary
-=======
+-------
 
 In this tutorial we have learned about the overall TAF workflow. We used as an example the [North Sea spotted ray](https://github.com/ices-taf/2015_rjm-347d), a fully scripted analysis. We also have on the GitHub TAF page other examples that can be studied in the same way: Icelandic haddock, North Sea cod, and Eastern Channel plaice.
 

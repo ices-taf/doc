@@ -1,12 +1,20 @@
 ---
 title: "TAF tutorial 1: Simple assessment"
-output:
-  github_document:
-    toc: true
-    toc_depth: 2
+output: github_document
 ---
 
-# TAF workflow
+1. [TAF workflow](#taf-workflow)
+2. [R scripts](#r-scripts)
+3. [North Sea spotted ray](#north-sea-spotted-ray)
+    - [data.R](#datar)
+    - [input.R](#inputr)
+    - [model.R](#modelr)
+    - [output.R](#outputr)
+    - [report.R](#reportr)
+4. [ICES packages](#ices-packages)
+5. [Summary](#summary)
+
+## TAF workflow
 
 In this tutorial we'll be looking at the TAF workflow, which is centered on R
 scripts that are run sequentially. They structure the stock assessment into
@@ -41,7 +49,7 @@ more general text files, things like numbers at age or fishing mortalities, SSB,
 and recruitment. Those results are then uploaded into the ICES databases: the
 stock assessment graphs, tables and so forth.
 
-# R scripts
+## R scripts
 
 Behind each of those folders, `data`, `input`, `model`, and `output`, there is
 an R script that governs what takes place. Let's take a look at those scripts in
@@ -64,7 +72,7 @@ script where scientists can prepare any plots and tables that they are going to
 put in the report, and finally there's `upload.R`, a very short script
 describing the data that are uploaded into the TAF system.
 
-# North Sea spotted ray
+## North Sea spotted ray
 
 What we're going to do for the rest of the tutorial is to go through the actual
 analysis behind the 2015 ICES advice for North Sea spotted ray. The R scripts
@@ -72,7 +80,7 @@ can be found on GitHub at https://github.com/ices-taf/2015_rjm-347d and if you
 want to work along while you read the tutorial, you can download and work with
 them on your own computer.
 
-## data.R
+### data.R
 
 Let's just dive into `data.R`. At the top of the script we have comments
 reminding us what is the purpose of the script: to preprocess the data and to
@@ -131,7 +139,7 @@ used in the assessment. In `catch.csv` we have the catch history, in
 `summary.csv` we have combined the catch history with the index that will be
 used, and `survey.csv` documents how the index is calculated.
 
-## input.R
+### input.R
 
 ```{r}
 ## Convert data to model format, write model input files
@@ -159,7 +167,7 @@ with catch and survey in the data folder, but after the script is run we'll have
 package and create the directory. We then simply fetch the catch and the survey
 data frames, and save them together in one file, `input.RData`.
 
-## model.R
+### model.R
 
 The third script `model.R` runs the model, and the results will be written out
 as `dls.txt` inside the `model` folder. Now it's not enough just to have the
@@ -197,7 +205,7 @@ they've been going up by 43%, and the DLS 3.2 rule is that we're not going to
 increase the advice by 43%, but rather by maximum of 20%, so the advice is 291
 t.
 
-## output.R
+### output.R
 
 ```{r}
 ## Extract results of interest, write TAF output tables
@@ -220,7 +228,7 @@ out the TAF output tables. We read in `dls.txt` and simply copy it to the
 `output` folder. In more complicated stock assessments this would of course take
 more steps, but here we just copy between `model` and `output`.
 
-## report.R
+### report.R
 
 Finally, in `report.R`, we're going to prepare plots and tables that could be
 included in the stock assessment report. Taking the summary from the `data`
@@ -260,7 +268,7 @@ Inside the `report` folder, we now have `summary.csv` and `survey.png`. The
 survey plot can be pasted into the report. In the summary table, we have rounded
 the indices to three decimals, so it's also ready for the report.
 
-# ICES packages
+## ICES packages
 
 In the R scripts we've been using some commands from ICES packages. Let's take a
 look at, for example, `DLS3.2`. The help page describes it as a function to
@@ -312,7 +320,7 @@ sourceAll()
 That's how final assessments will be run on TAF once they're uploaded, using
 `sourceAll`.
 
-# Summary
+## Summary
 
 In this tutorial we have learned about the overall TAF workflow. We used as an
 example the [North Sea spotted ray](https://github.com/ices-taf/2015_rjm-347d),
