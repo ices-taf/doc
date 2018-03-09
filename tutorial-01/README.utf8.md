@@ -1,19 +1,3 @@
----
-title: "TAF tutorial 1: Simple assessment"
-output:
-  html_vignette:
-    toc: true
-    toc_depth: 2
-    number_sections: true
-    mathjax: null
-vignette: >
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{TAF User Guidelines}
-  \usepackage[utf8]{inputenc}
----
-
-<br>
-
 # TAF workflow
 
 In this tutorial we'll be looking at the TAF workflow, which is centered on R
