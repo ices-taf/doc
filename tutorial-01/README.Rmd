@@ -3,16 +3,16 @@ title: "TAF tutorial 1: Simple assessment"
 output: github_document
 ---
 
-1. [TAF workflow](#taf-workflow)
-2. [R scripts](#r-scripts)
-3. [North Sea spotted ray](#north-sea-spotted-ray)
+* [TAF workflow](#taf-workflow)
+* [R scripts](#r-scripts)
+* [North Sea spotted ray](#north-sea-spotted-ray)
     - [data.R](#datar)
     - [input.R](#inputr)
     - [model.R](#modelr)
     - [output.R](#outputr)
     - [report.R](#reportr)
-4. [ICES packages](#ices-packages)
-5. [Summary](#summary)
+* [ICES packages](#ices-packages)
+* [Summary](#summary)
 
 ## TAF workflow
 
