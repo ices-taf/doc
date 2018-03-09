@@ -19,8 +19,6 @@ In this tutorial we'll be looking at the TAF workflow, which is centered on R sc
 
 The aim of TAF is to implement a framework to organize *data*, *methods*, and *results* used in ICES assessments, so they are easy to find and rerun later with new data. If you look at the diagram showing the TAF workflow and the different components, it's about going from data to analysis and results.
 
-<br>
-
 <img src="taf-diagram.png" alt="TAF diagram" width="600px">
 
 **Figure 1:** *TAF workflow*
@@ -30,8 +28,6 @@ We start with getting data from ICES databases and other data sources. The first
 Moving on to the `input` folder, the task there is to convert the data from the most general format, crosstab year by age usually, into the model-specific format. That will depend on the model: it can be one big text file, an R list, or a number of input text files, whatever the model will read. The `model` folder is about running the model. The model will be coming from either a toolbox of commonly used models, or any model can be used within this folder.
 
 The final step, `output`, is where we convert the model-specific output into more general text files, things like numbers at age or fishing mortalities, SSB, and recruitment. Those results are then uploaded into the ICES databases: the stock assessment graphs, tables and so forth.
-
-<br>
 
 R scripts
 =========
@@ -44,8 +40,6 @@ In `model.R` we run the analysis, often just invoking a shell command or an R pa
 
 Other scripts that we'll be working with are `report.R`, which is an optional script where scientists can prepare any plots and tables that they are going to put in the report, and finally there's `upload.R`, a very short script describing the data that are uploaded into the TAF system.
 
-<br>
-
 North Sea spotted ray
 =====================
 
@@ -55,8 +49,6 @@ data.R
 ------
 
 Let's just dive into `data.R`. At the top of the script we have comments reminding us what is the purpose of the script: to preprocess the data and to write out the TAF data tables. In the comment we also write the state before the script is run and after the script is run, in terms of the files and where they are. So we start with `catch.csv` and `surveys_all.csv` in the TAF database. After the script is run we'll have `catch.csv`, `summary.csv`, and `survey.csv`, all found in a new folder called `data`.
-
-<br>
 
 ``` {.r}
 ## Preprocess data, write TAF data tables
@@ -94,8 +86,6 @@ setwd("..")
 
 **Listing 1:** *data.R*
 
-<br>
-
 We start by loading the `icesTAF` package and create an empty directory. We next download the data, the catch and the survey, and we start preprocessing the data. We select the years of interest and the surveys of interest, scale the surveys and create a combined index, as the average of the three surveys. This combined index will be used as input data for the assessment. We finalize the tables and we write them out to the `data` directory.
 
 What we have done is to create a `data` folder containing the data that will be used in the assessment. In `catch.csv` we have the catch history, in `summary.csv` we have combined the catch history with the index that will be used, and `survey.csv` documents how the index is calculated.
@@ -122,16 +112,12 @@ save(catch, survey, file="input/input.RData")
 
 **Listing 2:** *input.R*
 
-<br>
-
 The next script is `input.R`. It's a short script, where we'll convert the data to model format and write out the model input files. In other words, we'll start with catch and survey in the data folder, but after the script is run we'll have `input.RData` in a folder called `input`. As before, we load the `icesTAF` package and create the directory. We then simply fetch the catch and the survey data frames, and save them together in one file, `input.RData`.
 
 model.R
 -------
 
 The third script `model.R` runs the model, and the results will be written out as `dls.txt` inside the `model` folder. Now it's not enough just to have the `icesTAF` package. We also use a package called `icesAdvice`, containing the function that we'll be using to run the analysis, `DLS3.2`.
-
-<br>
 
 ``` {.r}
 ## Run analysis, write model results
@@ -156,8 +142,6 @@ write.dls(dls, "model/dls.txt")
 
 **Listing 3:** *model.R*
 
-<br>
-
 We start by creating an empty folder, then get the data from the previous step, apply DLS method 3.2, and the results are found in the `model` folder as `dls.txt`. It outlines the computations behind the advice. The advice is 291 t, coming from the last advice of 243 t and a series of survey indices. On average they've been going up by 43%, and the DLS 3.2 rule is that we're not going to increase the advice by 43%, but rather by maximum of 20%, so the advice is 291 t.
 
 output.R
@@ -178,8 +162,6 @@ cp("model/dls.txt", "output")
 ```
 
 **Listing 4:** *output.R*
-
-<br>
 
 The `output.R` script is about extracting those results of interest, and writing out the TAF output tables. We read in `dls.txt` and simply copy it to the `output` folder. In more complicated stock assessments this would of course take more steps, but here we just copy between `model` and `output`.
 
@@ -215,11 +197,7 @@ write.taf(summary, "report/summary.csv")
 
 **Listing 5:** *report.R*
 
-<br>
-
 Inside the `report` folder, we now have `summary.csv` and `survey.png`. The survey plot can be pasted into the report. In the summary table, we have rounded the indices to three decimals, so it's also ready for the report.
-
-<br>
 
 ICES packages
 =============
@@ -257,8 +235,6 @@ sourceAll()
 ```
 
 That's how final assessments will be run on TAF once they're uploaded, using `sourceAll`.
-
-<br>
 
 Summary
 =======
