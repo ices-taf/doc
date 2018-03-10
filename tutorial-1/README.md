@@ -240,4 +240,4 @@ In this tutorial we have learned about the overall TAF workflow. We used as an e
 
 They are all age-based assessments: the [Eastern Channel plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R packages, and the [North Sea cod](https://github.com/ices-taf/2016_cod-347d) is a SAM model. The [Icelandic haddock](https://github.com/ices-taf/2015_had-iceg) is an AD Model Builder age-based model, and we'll be adding more examples there as we go.
 
-In a future video, we'll be covering the TAF web interface, where assessments can be browsed, run, and modified, and how web services can be used to upload, download, and run models.
+In a future tutorial, we'll be covering the TAF web interface, where assessments can be browsed, run, and modified, and how web services can be used to upload, download, and run models.
