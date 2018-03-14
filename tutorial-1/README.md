@@ -19,7 +19,7 @@ TAF workflow
 
 In this tutorial we'll be looking at the TAF workflow, which is centered on R scripts that are run sequentially. They structure the stock assessment into separate steps and what we'll end up with is clean, organized, and reproducible assessments.
 
-The aim of TAF is to implement a framework to organize *data*, *methods*, and *results* used in ICES assessments, so they are easy to find and rerun later with new data. If you look at the diagram showing the TAF workflow and the different components, it's about going from data to analysis and results.
+The aim of TAF is to implement a framework to organize *data*, *methods*, and *results* used in ICES assessments, so they're easy to find and rerun later with new data. If you look at the diagram showing the TAF workflow and the different components, it's about going from data to analysis and results.
 
 <img src="taf-diagram.png" alt="TAF diagram" width="700px">
 
@@ -40,7 +40,7 @@ The first one is `data.R`. That's where we preprocess the data and write out wha
 
 In `model.R` we run the analysis, often just invoking a shell command or an R package to run the model, and the results will be written out as output files. These output files will often contain information about likelihoods or gradients, and other information we don't really need. So we extract the results of interest in `output.R`, things like numbers at age and fishing mortalities, and we write them out as text files.
 
-Other scripts that we'll be working with are `report.R`, which is an optional script where scientists can prepare any plots and tables that they are going to put in the report, and finally there's `upload.R`, a very short script describing the data that are uploaded into the TAF system.
+Other scripts that we'll be working with are `report.R`, which is an optional script where scientists can prepare any plots and tables that they're going to put in the report, and finally there's `upload.R`, a very short script describing the data that are uploaded into the TAF system.
 
 North Sea spotted ray
 ---------------------
@@ -206,14 +206,14 @@ library(icesAdvice)
 help(DLS3.2)
 ```
 
-We've also been using some R functions from the `icesTAF` package. If we take a look at the main help page for the `icesTAF` package, it lists all the functions by their groups. Some of them we've been using to read and write files, and we've been using `cp` and `mkdir` to manipulate files. We used `tafpng` to open a PNG graphics device, to draw an image and write it in PNG format.
+We've also been using some R functions from the `icesTAF` package. If we take a look at the main help page for the `icesTAF` package, it lists all the functions by group. Some of them we've been using to read and write files, and we've been using `cp` and `mkdir` to manipulate files. We used `tafpng` to open a PNG graphics device, to draw an image and write it in PNG format.
 
 ``` {.r}
 library(icesTAF)
 help(icesTAF)
 ```
 
-Most of the `icesTAF` functions are very short and simple, but they're simply there to make the scripts look more readable. They're convenient shorthand functions, to get to the point without some boilerplate code that's needed. For example, in `report.R` we were using `tafpng` like that, so it uses the suggested image size and so forth.
+Most of the `icesTAF` functions are very short and simple, but they're simply there to make the scripts look more readable. They're convenient shorthand functions, to get to the point without some boilerplate code that's needed. For example, in `report.R` we were using `tafpng` so it uses the suggested image size and so forth.
 
 We also see in the help page some functions to run the scripts: `sourceTAF` to run a single script and `sourceAll` to run all of them. Starting from scratch, we can run the scripts one by one:
 
@@ -240,4 +240,4 @@ In this tutorial we have learned about the overall TAF workflow. We used as an e
 
 They are all age-based assessments: the [Eastern Channel plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R packages, and the [North Sea cod](https://github.com/ices-taf/2016_cod-347d) is a SAM model. The [Icelandic haddock](https://github.com/ices-taf/2015_had-iceg) is an AD Model Builder age-based model, and we'll be adding more examples here as we go.
 
-In a future tutorial, we'll be covering the TAF web interface, where assessments can be browsed, run, and modified, and how web services can be used to upload, download, and run models.
+In a future tutorial we'll be covering the TAF web interface, where assessments can be browsed, run, and modified, and how web services can be used to upload, download, and run models.
