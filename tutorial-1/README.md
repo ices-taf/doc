@@ -25,11 +25,11 @@ The aim of TAF is to implement a framework to organize *data*, *methods*, and *r
 
 **Figure 1:** *TAF workflow*
 
-We start with getting data from ICES databases and other data sources. The first step in the `data` folder is to gather the data, and to filter and preprocess the data that will finally be used in the assessment. That's one of the major aims of TAF, to document and script this process of preparing the data. Describing where they came from and what was done to them, before they were entered in the assessment model.
+We start with getting data from ICES databases and other data sources. The first step in the `data` folder is to gather the data, and to filter and preprocess the data that will finally be used in the assessment. That's one of the major aims of TAF, to document and script this process of preparing the data. Describing where they came from and what was done to them before they were entered in the assessment model.
 
-Moving on to the `input` folder, the task there is to convert the data from the most general format, crosstab year by age usually, into the model-specific format. That will depend on the model: it can be one big text file, an R list, or a number of input text files, whatever the model will read. The `model` folder is about running the model. The model will be coming from either a toolbox of commonly used models, or any model can be used within this folder.
+Moving on to the `input` folder, the task here is to convert the data from the most general format, crosstab year by age usually, into the model-specific format. That will depend on the model: it can be one big text file, an R list, or a number of input text files, whatever the model will read. The `model` folder is about running the model. The model will be coming from either a toolbox of commonly used models, or any model can be used within this folder.
 
-The final step, `output`, is where we convert the model-specific output into more general text files, things like numbers at age or fishing mortalities, SSB, and recruitment. Those results are then uploaded into the ICES databases: the stock assessment graphs, tables and so forth.
+The final step, `output`, is where we convert the model-specific output into more general text files, things like numbers at age or fishing mortalities, SSB, and recruitment. These results are then uploaded into the ICES databases: the stock assessment graphs, tables and so forth.
 
 R scripts
 ---------
@@ -38,7 +38,7 @@ Behind each of those folders, `data`, `input`, `model`, and `output`, there is a
 
 The first one is `data.R`. That's where we preprocess the data and write out what we call TAF data tables. They're very simple crosstab text files, comma separated values. The next step is `input.R`, where we convert those data to the model-specific format, writing out the model input files.
 
-In `model.R` we run the analysis, often just invoking a shell command or an R package to run the model, and the results will be written out as output files. Those output files will often contain information about likelihoods or gradients, and other information we don't really need. So we extract the results of interest in `output.R`, things like numbers at age and fishing mortalities, and we write them out as text files.
+In `model.R` we run the analysis, often just invoking a shell command or an R package to run the model, and the results will be written out as output files. These output files will often contain information about likelihoods or gradients, and other information we don't really need. So we extract the results of interest in `output.R`, things like numbers at age and fishing mortalities, and we write them out as text files.
 
 Other scripts that we'll be working with are `report.R`, which is an optional script where scientists can prepare any plots and tables that they are going to put in the report, and finally there's `upload.R`, a very short script describing the data that are uploaded into the TAF system.
 
@@ -238,6 +238,6 @@ Summary
 
 In this tutorial we have learned about the overall TAF workflow. We used as an example the [North Sea spotted ray](https://github.com/ices-taf/2015_rjm-347d), a fully scripted analysis. We also have on the GitHub TAF page other examples that can be studied in the same way: Icelandic haddock, North Sea cod, and Eastern Channel plaice.
 
-They are all age-based assessments: the [Eastern Channel plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R packages, and the [North Sea cod](https://github.com/ices-taf/2016_cod-347d) is a SAM model. The [Icelandic haddock](https://github.com/ices-taf/2015_had-iceg) is an AD Model Builder age-based model, and we'll be adding more examples there as we go.
+They are all age-based assessments: the [Eastern Channel plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R packages, and the [North Sea cod](https://github.com/ices-taf/2016_cod-347d) is a SAM model. The [Icelandic haddock](https://github.com/ices-taf/2015_had-iceg) is an AD Model Builder age-based model, and we'll be adding more examples here as we go.
 
 In a future tutorial, we'll be covering the TAF web interface, where assessments can be browsed, run, and modified, and how web services can be used to upload, download, and run models.
