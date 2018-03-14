@@ -36,10 +36,10 @@ We start with getting data from ICES databases and other data sources. The first
 step in the `data` folder is to gather the data, and to filter and preprocess
 the data that will finally be used in the assessment. That's one of the major
 aims of TAF, to document and script this process of preparing the data.
-Describing where they came from and what was done to them, before they were
+Describing where they came from and what was done to them before they were
 entered in the assessment model.
 
-Moving on to the `input` folder, the task there is to convert the data from the
+Moving on to the `input` folder, the task here is to convert the data from the
 most general format, crosstab year by age usually, into the model-specific
 format. That will depend on the model: it can be one big text file, an R list,
 or a number of input text files, whatever the model will read. The `model`
@@ -48,7 +48,7 @@ toolbox of commonly used models, or any model can be used within this folder.
 
 The final step, `output`, is where we convert the model-specific output into
 more general text files, things like numbers at age or fishing mortalities, SSB,
-and recruitment. Those results are then uploaded into the ICES databases: the
+and recruitment. These results are then uploaded into the ICES databases: the
 stock assessment graphs, tables and so forth.
 
 ## R scripts
@@ -64,7 +64,7 @@ model-specific format, writing out the model input files.
 
 In `model.R` we run the analysis, often just invoking a shell command or an R
 package to run the model, and the results will be written out as output files.
-Those output files will often contain information about likelihoods or
+These output files will often contain information about likelihoods or
 gradients, and other information we don't really need. So we extract the results
 of interest in `output.R`, things like numbers at age and fishing mortalities,
 and we write them out as text files.
@@ -334,7 +334,7 @@ They are all age-based assessments: the [Eastern Channel
 plaice](https://github.com/ices-taf/2016_ple-eche) uses the FLR suite of R
 packages, and the [North Sea cod](https://github.com/ices-taf/2016_cod-347d) is
 a SAM model. The [Icelandic haddock](https://github.com/ices-taf/2015_had-iceg)
-is an AD Model Builder age-based model, and we'll be adding more examples there
+is an AD Model Builder age-based model, and we'll be adding more examples here
 as we go.
 
 In a future tutorial, we'll be covering the TAF web interface, where assessments
