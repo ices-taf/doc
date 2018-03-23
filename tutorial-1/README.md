@@ -1,7 +1,7 @@
 TAF tutorial 1: Simple assessment
 ================
 
-See also: [TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
+See also: [:arrow\_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
 
 -   [TAF workflow](#taf-workflow)
 -   [R scripts](#r-scripts)
