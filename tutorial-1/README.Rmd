@@ -3,7 +3,7 @@ title: "TAF tutorial 1: Simple assessment"
 output: github_document
 ---
 
-See also: [TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
+See also: [:arrow_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
 
 * [TAF workflow](#taf-workflow)
 * [R scripts](#r-scripts)
