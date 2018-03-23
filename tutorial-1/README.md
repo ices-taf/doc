@@ -3,6 +3,8 @@ TAF tutorial 1: Simple assessment
 
 See also: [:arrow\_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
 
+**Contents**
+
 -   [TAF workflow](#taf-workflow)
 -   [R scripts](#r-scripts)
 -   [North Sea spotted ray](#north-sea-spotted-ray)
@@ -13,8 +15,6 @@ See also: [:arrow\_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hf
     -   [report.R](#reportr)
 -   [ICES packages](#ices-packages)
 -   [Summary](#summary)
-
-See also: [TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
 
 <br>
 
