@@ -3,6 +3,8 @@ title: "TAF tutorial 1: Simple assessment"
 output: github_document
 ---
 
+See also: [TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
+
 * [TAF workflow](#taf-workflow)
 * [R scripts](#r-scripts)
 * [North Sea spotted ray](#north-sea-spotted-ray)
@@ -13,6 +15,8 @@ output: github_document
     - [report.R](#reportr)
 * [ICES packages](#ices-packages)
 * [Summary](#summary)
+
+See also: [TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY)
 
 <br>
 
