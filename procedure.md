@@ -53,18 +53,18 @@ Part E: **Output script**
 
 <br>
 
-Part X: **Start from disaggregated data**
+Part X: **Report script**
+
+- Produce formatted tables that look like earlier reports
+- Produce figures that look like earlier reports
+
+<br>
+
+Part Y: **Start from disaggregated data**
 
 - Get data files with disaggregated data
 - Revise `data.R` to read those files
 - Filter, smooth, aggregate, etc. to create aggregated data
-
-<br>
-
-Part Y: **Report script**
-
-- Produce formatted tables that look like earlier reports
-- Produce figures that look like earlier reports
 
 <br>
 
