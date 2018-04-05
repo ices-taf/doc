@@ -4,7 +4,7 @@ To make the task easier, and to measure the progress towards the goal, we divide
 it into many small steps. The procedure below applies equally to assessment
 coordinators and the TAF support team, except for the 1st step :cat:
 
-Fifteen steps to script the analysis from *data* to *output* (core assessment)
+Fifteen steps to script the analysis from 'data' to 'output' (core assessment)
 in TAF:
 
 <br>
@@ -43,7 +43,7 @@ Part D: **Input and model scripts**
 
 Part E: **Output script**
 
-13. Get N at age, F at age
+13. Extract results of interest, e.g. N and F at age
 14. Construct summary table: Rec, SSB, Fbar, etc.
 15. Write TAF files
 
