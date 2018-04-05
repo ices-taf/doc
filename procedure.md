@@ -73,6 +73,8 @@ Part Z: **TAF forecast**
 - If forecast is simple, script it in `report_forecast.R`
 - If complex, create separate analysis: data, input, etc.
 
+<br>
+
 <hr>
 
 See also:
