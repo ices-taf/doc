@@ -2,7 +2,7 @@
 
 To make the task easier, and to measure the progress towards the goal, we divide
 it into many small steps. The procedure below applies equally to assessment
-coordinators and the TAF support team, except for the 1st step :cat:
+coordinators and the TAF support team, except for the 1st step :smile:
 
 Fifteen steps to script the analysis from data to output (core assessment) in
 TAF:
