@@ -13,11 +13,15 @@ Fifteen steps to get the 'core assessment' into TAF:
 2. Get files (data, model) and earlier reports
 3. Run model
 
+<br>
+
 **Part B: Examine the analysis**
 
 4. Check that data and results resemble earlier reports
 5. Explore input: data types, files, etc.
 6. Identify minimal set of files to run the assessment
+
+<br>
 
 **Part C: Data script**
 
@@ -25,11 +29,15 @@ Fifteen steps to get the 'core assessment' into TAF:
 8. Preprocess data
 9. Write TAF files
 
+<br>
+
 **Part D: Input and model scripts**
 
 10. Prepare model input
 11. Run model
 12. Document dependencies, especially non-CRAN packages
+
+<br>
 
 **Part E: Output script**
 
@@ -46,9 +54,13 @@ Fifteen steps to get the 'core assessment' into TAF:
 - Revise data.R to read those files
 - Filter, smooth, aggregate, etc. to create aggregated data
 
+<br>
+
 **Part Y: Report script**
 - Produce formatted tables that look like earlier reports
 - Produce figures that look like earlier reports
+
+<br>
 
 **Part Z: TAF forecast**
 - If forecast is simple, script it in report_forecast.R
