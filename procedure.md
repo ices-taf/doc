@@ -8,7 +8,7 @@ TAF support team, Fifteen steps to get the 'core assessment' into TAF:
 
 <br>
 
-**Part A: Get model to run**
+Part A: **Get model to run**
 
 1. Contact assessment coordinator
 2. Get files (data, model) and earlier reports
@@ -16,7 +16,7 @@ TAF support team, Fifteen steps to get the 'core assessment' into TAF:
 
 <br>
 
-**Part B: Examine the analysis**
+Part B: **Examine the analysis**
 
 4. Check that data and results resemble earlier reports
 5. Explore input: data types, files, etc.
@@ -24,7 +24,7 @@ TAF support team, Fifteen steps to get the 'core assessment' into TAF:
 
 <br>
 
-**Part C: Data script**
+Part **C: Data script**
 
 7. Read data files
 8. Preprocess data
@@ -32,7 +32,7 @@ TAF support team, Fifteen steps to get the 'core assessment' into TAF:
 
 <br>
 
-**Part D: Input and model scripts**
+Part **D: Input and model scripts**
 
 10. Prepare model input
 11. Run model
@@ -60,14 +60,14 @@ TAF support team, Fifteen steps to get the 'core assessment' into TAF:
 
 <br>
 
-**Part Y: Report script**
+Part **Y: Report script**
 
 - Produce formatted tables that look like earlier reports
 - Produce figures that look like earlier reports
 
 <br>
 
-**Part Z: TAF forecast**
+Part Z: **TAF forecast**
 
 - If forecast is simple, script it in `report_forecast.R`
 - If complex, create separate analysis: data, input, etc.
