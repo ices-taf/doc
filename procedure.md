@@ -1,7 +1,7 @@
 # Procedure to get an assessment into TAF
 
-To make this task easier, and to measure the progress towards the goal, we
-divide it into many small steps.
+To make the task easier, and to measure the progress towards the goal, we divide
+it into many small steps.
 
 Fifteen steps to get the 'core assessment' into TAF:
 
