@@ -64,7 +64,7 @@ Part Y: **Start from disaggregated data**
 
 - Get data files with disaggregated data
 - Revise `data.R` to read those files
-- Filter, smooth, aggregate, etc. to create aggregated data
+- Filter, smooth, combine, etc. to create aggregated data
 
 <br>
 
