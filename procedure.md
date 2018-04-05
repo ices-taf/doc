@@ -2,19 +2,7 @@
 
 To make the task easier, and to measure the progress towards the goal, we divide
 it into many small steps. The procedure below applies equally to assessment
-coordinators and the TAF support team, except for step 1 :)
-
-TAF support team, except for step 1 :wink:
-
-TAF support team, except for step 1 :smiley_cat:
-
-TAF support team, except for step 1 :cat:
-
-TAF support team, except for step 1 :fish:
-
-TAF support team, except for step 1 :sun_with_face:
-
-TAF support team, except for step 1 :balloon:
+coordinators and the TAF support team, except for step 1 :cat:
 
 TAF support team, Fifteen steps to get the 'core assessment' into TAF:
 
