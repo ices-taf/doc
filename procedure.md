@@ -1,8 +1,5 @@
 # Procedure to get an assessment into TAF
 
-See also:
-[Tutorial](https://github.com/ices-taf/doc/blob/master/tutorial-1/README.md)
-
 To make the task easier, and to measure the progress towards the goal, we divide
 it into many small steps. The procedure below applies equally to assessment
 coordinators and the TAF support team, except for the 1st step :cat:
@@ -75,3 +72,8 @@ Part Z: **TAF forecast**
 
 - If forecast is simple, script it in `report_forecast.R`
 - If complex, create separate analysis: data, input, etc.
+
+<hr>
+
+See also:
+[Tutorial](https://github.com/ices-taf/doc/blob/master/tutorial-1/README.md)
