@@ -24,7 +24,7 @@ Part B: **Examine the analysis**
 
 <br>
 
-Part **C: Data script**
+Part C: **Data script**
 
 7. Read data files
 8. Preprocess data
@@ -32,7 +32,7 @@ Part **C: Data script**
 
 <br>
 
-Part **D: Input and model scripts**
+Part D: **Input and model scripts**
 
 10. Prepare model input
 11. Run model
@@ -40,7 +40,7 @@ Part **D: Input and model scripts**
 
 <br>
 
-**Part E: Output script**
+Part E: **Output script**
 
 13. Get N at age, F at age
 14. Construct summary table: Rec, SSB, Fbar, etc.
@@ -52,7 +52,7 @@ Part **D: Input and model scripts**
 
 <br>
 
-**Part X: Start from disaggregated data**
+Part X: **Start from disaggregated data**
 
 - Get data files with disaggregated data
 - Revise `data.R` to read those files
@@ -60,7 +60,7 @@ Part **D: Input and model scripts**
 
 <br>
 
-Part **Y: Report script**
+Part Y: **Report script**
 
 - Produce formatted tables that look like earlier reports
 - Produce figures that look like earlier reports
