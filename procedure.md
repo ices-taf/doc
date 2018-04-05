@@ -3,9 +3,9 @@
 To make this task easier, and to measure the progress towards the goal, we
 divide it into many small steps.
 
-## Fifteen steps to get the 'core assessment' into TAF
+Fifteen steps to get the 'core assessment' into TAF:
 
-### Part A: Get model to run
+**Part A: Get model to run**
 1. Contact stock coordinator
 2. Get files (data, model) and earlier reports
 3. Run model
