@@ -8,26 +8,31 @@ Fifteen steps to get the 'core assessment' into TAF:
 <br>
 
 **Part A: Get model to run**
+
 1. Contact stock coordinator
 2. Get files (data, model) and earlier reports
 3. Run model
 
 **Part B: Examine the analysis**
+
 4. Check that data and results resemble earlier reports
 5. Explore input: data types, files, etc.
 6. Identify minimal set of files to run the assessment
 
 **Part C: Data script**
+
 7. Read data files
 8. Preprocess data
 9. Write TAF files
 
 **Part D: Input and model scripts**
+
 10. Prepare model input
 11. Run model
 12. Document dependencies, especially non-CRAN packages
 
 **Part E: Output script**
+
 13. Get N at age, F at age
 14. Construct summary table: Rec, SSB, Fbar, etc.
 15. Write TAF files
