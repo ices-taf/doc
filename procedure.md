@@ -52,6 +52,7 @@ Fifteen steps to get the 'core assessment' into TAF:
 <br>
 
 **Part X: Start from disaggregated data**
+
 - Get data files with disaggregated data
 - Revise `data.R` to read those files
 - Filter, smooth, aggregate, etc. to create aggregated data
@@ -59,11 +60,13 @@ Fifteen steps to get the 'core assessment' into TAF:
 <br>
 
 **Part Y: Report script**
+
 - Produce formatted tables that look like earlier reports
 - Produce figures that look like earlier reports
 
 <br>
 
 **Part Z: TAF forecast**
+
 - If forecast is simple, script it in `report_forecast.R`
 - If complex, create separate analysis: data, input, etc.
