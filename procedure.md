@@ -39,9 +39,10 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Check that data and results resemble earlier reports</summary>
 
-  This is a good time to (a) view the input & output files and to (b) open the
-  last WG report, especially the table section.<br>
-  Do (a) and (b) look similar?
+  This is a good time to<br>
+  (a) view the input & output files, and<br>
+  (b) open the last WG report - especially the table section.<br>
+  Do the tables in (a) and (b) look similar?
 
 </details>
 
@@ -49,6 +50,7 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
   What kinds of data are used in this assessment, perhaps more than one
   survey?<br>
+  Are some data tables in the report not in the model input, or vice versa?<br>
   Is it easy to find out which input files the model requires?<br>
   Are the model settings stored in a separate file?
 
