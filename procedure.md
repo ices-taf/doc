@@ -40,7 +40,9 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 <details><summary>Check that data and results resemble earlier reports</summary>
 
   This is a good time to (a) view the input & output files and to (b) open the
-  last WG report, especially the table section. Do (a) and (b) look similar?
+  last WG report, especially the table section.
+
+  Do (a) and (b) look similar?
 
 </details>
 
