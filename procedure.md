@@ -12,20 +12,21 @@ TAF:
 Part 1: **Get model to run**
 
 <details><summary>Contact assessment coordinator</summary>
-
   1-800-icestaf
 </details>
 
 <details><summary>Get files (data, model) and earlier reports</summary>
-
+  1-800-icestaf
   `1-800-icestaf`
+  1-800-icestaf
 </details>
 
 <details><summary>Run model</summary>
-
+  1-800-icestaf
   ```
   1-800-icestaf
   ```
+  1-800-icestaf
 </details>
 
 <br>
