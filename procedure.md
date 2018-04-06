@@ -4,13 +4,13 @@ To make the task easier, and to measure the progress towards the goal, we divide
 it into smaller steps. The procedure below applies equally to assessment
 coordinators and the TAF support team.
 
-Steps to script the analysis from data to output (core assessment) in TAF:
+Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <br>
 
 <!-- GitHub Markdown requires empty line after </summary> to render `code` -->
 
-1. **Get model to run**
+1: **Get model to run**
 
 <details><summary>Contact assessment coordinator</summary>
 
@@ -31,7 +31,7 @@ Steps to script the analysis from data to output (core assessment) in TAF:
 
 <br>
 
-2. **Examine the analysis**
+2: **Examine the analysis**
 
 <details><summary>Check that data and results resemble earlier reports</summary>
 
