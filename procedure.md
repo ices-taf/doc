@@ -9,6 +9,7 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 <br>
 
 <!-- GitHub Markdown requires empty line after </summary> to render `code` -->
+<!-- Also, `code` is not rendered in <summary> heading -->
 
 1: **Get model to run**
 
@@ -141,7 +142,7 @@ Mission Y: **Start from disaggregated data**
   `1-800-icestaf`
 </details>
 
-<details><summary>Revise `data.R` to read those files</summary>
+<details><summary>Revise data.R to read those files</summary>
 
   `1-800-icestaf`
 </details>
@@ -158,7 +159,7 @@ Mission Y: **Start from disaggregated data**
 Mission Z: **TAF forecast**
 
 <details>
-<summary>If forecast is simple, script it in `report_forecast.R`</summary>
+<summary>If forecast is simple, script it in report_forecast.R</summary>
 
   `1-800-icestaf`
 </details>
