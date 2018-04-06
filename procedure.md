@@ -9,21 +9,20 @@ TAF:
 
 <br>
 
-Part A: **Get model to run**
+Part 1: **Get model to run**
 
-1. Contact assessment coordinator
-<details>
-  <summary>Click to expand</summary>
+<details><summary>Contact assessment coordinator</summary>
+
   1-800-icestaf
 </details>
-2. Get files (data, model) and earlier reports
-<details>
-  <summary>Click to expand</summary>
+
+<details><summary>Get files (data, model) and earlier reports</summary>
+
   `1-800-icestaf`
 </details>
-3. Run model
-<details>
-  <summary>Click to expand</summary>
+
+<details><summary>Run model</summary>
+
   ```
   1-800-icestaf
   ```
