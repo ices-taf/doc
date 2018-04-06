@@ -59,8 +59,8 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 <details><summary>Identify minimal set of files to run the assessment</summary>
 
 > In general, TAF should only contain files that are absolutely necessary to run
-> the final assessment. All other files are probably best stored outside of
-> TAF.<br>
+> the final assessment.<br>
+> All other files are probably best stored outside of TAF.<br>
 > What is the smallest set of files that are required to run the final
 > assessment on another computer?
 
