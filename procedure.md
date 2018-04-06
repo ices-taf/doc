@@ -9,25 +9,28 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 <br>
 
 <!-- GitHub Markdown requires empty line after </summary> to render `code` -->
-<!-- Also, `code` is not rendered in <summary> heading -->
+<!-- Also, `code` is not rendered in <summary> headings -->
 
 1: **Get model to run**
 
 <details><summary>Contact assessment coordinator</summary>
 
-  1-800-icestaf
+  Well, unless you *are* the assessment coordinator :)
+
 </details>
 
 <details><summary>Get files (data, model) and earlier reports</summary>
 
-  `1-800-icestaf`
+  Files might be found in the Sharepoint `Data` folder. Earlier WG reports can
+  be found online.
+
 </details>
 
 <details><summary>Run model</summary>
 
-  ```
-  1-800-icestaf
-  ```
+  Being able to run the assessment on a different computer is an important
+  milestone in making the analysis reproducible.
+
 </details>
 
 <br>
@@ -36,19 +39,26 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Check that data and results resemble earlier reports</summary>
 
-  1-800-icestaf
+  This is a good time to (a) view the input & output files and to (b) open the
+  last WG report, especially the table section. Do (a) and (b) look similar?
+
 </details>
 
 <details><summary>Explore input: data types, files, etc.</summary>
 
-  `1-800-icestaf`
+  What kinds of data are used in this assessment, perhaps more than one survey?
+  Is it easy to find out which input files the model requires? Are the model
+  settings stored in a separate file?
+
 </details>
 
 <details><summary>Identify minimal set of files to run the assessment</summary>
 
-  ```
-  1-800-icestaf
-  ```
+  In general, TAF should only contain files that are absolutely necessary to run
+  the final assessment. All other files are probably best stored outside of TAF.
+  What is the smallest set of files that are required to run the final
+  assessment on another computer?
+
 </details>
 
 <br>
