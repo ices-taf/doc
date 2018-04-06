@@ -6,7 +6,7 @@ and the TAF support team.
 
 Five steps to script the analysis from data to output (core assessment) in TAF:
 
-<br>
+---
 
 <!-- GitHub Markdown requires empty line after </summary> to render `code` -->
 <!-- Also, `code` is not rendered in <summary> headings -->
@@ -197,7 +197,7 @@ Mission Z: **TAF forecast**
 
 <br>
 
-<hr>
+---
 
 See also:
 [Tutorial](https://github.com/ices-taf/doc/blob/master/tutorial-1/README.md)
