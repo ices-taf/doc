@@ -78,14 +78,14 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Preprocess data</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <details><summary>Write TAF files</summary>
 
-  ```
-  1-800-icestaf
-  ```
+>
+
 </details>
 
 <br>
@@ -94,19 +94,20 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Prepare model input</summary>
 
-  1-800-icestaf
+>
+
 </details>
 
 <details><summary>Run model</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <details><summary>Document dependencies, especially non-CRAN packages</summary>
 
-  ```
-  1-800-icestaf
-  ```
+>
+
 </details>
 
 <br>
@@ -115,19 +116,20 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Extract results of interest, e.g. N and F at age</summary>
 
-  1-800-icestaf
+>
+
 </details>
 
 <details><summary>Construct summary table: Rec, SSB, Fbar, etc.</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <details><summary>Write TAF files</summary>
 
-  ```
-  1-800-icestaf
-  ```
+>
+
 </details>
 
 <br>
@@ -141,12 +143,14 @@ Mission X: **Report script**
 <details>
 <summary>Produce formatted tables that look like earlier reports</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <details><summary>Produce figures that look like earlier reports</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <br>
@@ -155,18 +159,21 @@ Mission Y: **Start from disaggregated data**
 
 <details><summary>Get data files with disaggregated data</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <details><summary>Revise data.R to read those files</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <details>
 <summary>Filter, smooth, combine, etc. to create aggregated data</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 
@@ -177,13 +184,15 @@ Mission Z: **TAF forecast**
 <details>
 <summary>If forecast is simple, script it in report_forecast.R</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <details>
 <summary>If complex, create separate analysis: data, input, etc.</summary>
 
-  `1-800-icestaf`
+>
+
 </details>
 
 <br>
