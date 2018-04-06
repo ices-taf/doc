@@ -15,14 +15,14 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Contact assessment coordinator</summary>
 
-  Well, unless you *are* the assessment coordinator :)
+> Well, unless you *are* the assessment coordinator :)
 
 </details>
 
 <details><summary>Get files (data, model) and earlier reports</summary>
 
-  Files might be found in the Sharepoint `Data` folder.<br>
-  Earlier WG reports can be found online.
+> Files might be found in the Sharepoint `Data` folder.<br>
+> Earlier WG reports can be found online.
 
 </details>
 
