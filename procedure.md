@@ -33,26 +33,50 @@ Part A: **Get model to run**
 
 Part B: **Examine the analysis**
 
-4. Check that data and results resemble earlier reports
-<details>
-  <summary>Click to expand</summary>
+4. <details>
+     <summary>Check that data and results resemble earlier reports</summary>
 
-  1-800-icestaf
-</details>
-5. Explore input: data types, files, etc.
-<details>
-  <summary>Click to expand</summary>
+     1-800-icestaf
+   </details>
 
-  `1-800-icestaf`
-</details>
-6. Identify minimal set of files to run the assessment
-<details>
-  <summary>Click to expand</summary>
+5. <details>
+     <summary>Explore input: data types, files, etc.</summary>
 
-  ```
-  1-800-icestaf
-  ```
-</details>
+     `1-800-icestaf`
+   </details>
+6. <details>
+     <summary>Identify minimal set of files to run the assessment</summary>
+
+     ```
+     1-800-icestaf
+     ```
+   </details>
+
+<br>
+
+Part B: **Examine the analysis**
+
+<ol>
+  <li value="4"><details>
+    <summary>Check that data and results resemble earlier reports</summary>
+
+    1-800-icestaf
+  </details>
+
+  <li value="5"><details>
+    <summary>Explore input: data types, files, etc.</summary>
+
+    `1-800-icestaf`
+  </details>
+
+  <li value="6"><details>
+    <summary>Identify minimal set of files to run the assessment</summary>
+
+    ```
+    1-800-icestaf
+    ```
+  </details>
+</ol>
 
 <br>
 
