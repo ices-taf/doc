@@ -21,8 +21,8 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Get files (data, model) and earlier reports</summary>
 
-  Files might be found in the Sharepoint `Data` folder. Earlier WG reports can
-  be found online.
+  Files might be found in the Sharepoint `Data` folder.<br>
+  Earlier WG reports can be found online.
 
 </details>
 
@@ -47,16 +47,18 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Explore input: data types, files, etc.</summary>
 
-  What kinds of data are used in this assessment, perhaps more than one survey?
-  Is it easy to find out which input files the model requires? Are the model
-  settings stored in a separate file?
+  What kinds of data are used in this assessment, perhaps more than one
+  survey?<br>
+  Is it easy to find out which input files the model requires?<br>
+  Are the model settings stored in a separate file?
 
 </details>
 
 <details><summary>Identify minimal set of files to run the assessment</summary>
 
   In general, TAF should only contain files that are absolutely necessary to run
-  the final assessment. All other files are probably best stored outside of TAF.
+  the final assessment. All other files are probably best stored outside of
+  TAF.<br>
   What is the smallest set of files that are required to run the final
   assessment on another computer?
 
