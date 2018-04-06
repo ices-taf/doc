@@ -10,7 +10,7 @@ Steps to script the analysis from data to output (core assessment) in TAF:
 
 <!-- GitHub Markdown requires empty line after </summary> to render `code` -->
 
-Step 1: **Get model to run**
+1. **Get model to run**
 
 <details><summary>Contact assessment coordinator</summary>
 
@@ -31,7 +31,7 @@ Step 1: **Get model to run**
 
 <br>
 
-Step 2: **Examine the analysis**
+2. **Examine the analysis**
 
 <details><summary>Check that data and results resemble earlier reports</summary>
 
@@ -52,7 +52,7 @@ Step 2: **Examine the analysis**
 
 <br>
 
-Step 3: **Data script**
+3: **Data script**
 
 <details><summary>Read data files</summary>
 
@@ -73,7 +73,7 @@ Step 3: **Data script**
 
 <br>
 
-Step 4: **Input and model scripts**
+4: **Input and model scripts**
 
 <details><summary>Prepare model input</summary>
 
@@ -94,7 +94,7 @@ Step 4: **Input and model scripts**
 
 <br>
 
-Step 5: **Output script**
+5: **Output script**
 
 <details><summary>Extract results of interest, e.g. N and F at age</summary>
 
