@@ -12,24 +12,69 @@ TAF:
 Part A: **Get model to run**
 
 1. Contact assessment coordinator
+<details>
+  <summary>Click to expand</summary>
+  1-800-icestaf
+</details>
 2. Get files (data, model) and earlier reports
+<details>
+  <summary>Click to expand</summary>
+  `1-800-icestaf`
+</details>
 3. Run model
+<details>
+  <summary>Click to expand</summary>
+  ```
+  1-800-icestaf
+  ```
+</details>
 
 <br>
 
 Part B: **Examine the analysis**
 
 4. Check that data and results resemble earlier reports
+<details>
+  <summary>Click to expand</summary>
+
+  1-800-icestaf
+</details>
 5. Explore input: data types, files, etc.
+<details>
+  <summary>Click to expand</summary>
+
+  `1-800-icestaf`
+</details>
 6. Identify minimal set of files to run the assessment
+<details>
+  <summary>Click to expand</summary>
+
+  ```
+  1-800-icestaf
+  ```
+</details>
 
 <br>
 
 Part C: **Data script**
 
 7. Read data files
+<details>
+  <summary>Click to expand</summary><p>
+  1-800-icestaf
+</details>
 8. Preprocess data
+<details>
+  <summary>Click to expand</summary><p>
+  `1-800-icestaf`
+</details>
 9. Write TAF files
+<details>
+  <summary>Click to expand</summary><p>
+  ```
+  1-800-icestaf
+  ```
+</details>
 
 <br>
 
