@@ -124,12 +124,12 @@ Mission X: **Report script**
 <details>
 <summary>Produce formatted tables that look like earlier reports</summary>
 
-  1-800-icestaf
+  `1-800-icestaf`
 </details>
 
 <details><summary>Produce figures that look like earlier reports</summary>
 
-`1-800-icestaf`
+  `1-800-icestaf`
 </details>
 
 <br>
@@ -138,18 +138,18 @@ Mission Y: **Start from disaggregated data**
 
 <details><summary>Get data files with disaggregated data</summary>
 
-`1-800-icestaf`
+  `1-800-icestaf`
 </details>
 
 <details><summary>Revise `data.R` to read those files</summary>
 
-`1-800-icestaf`
+  `1-800-icestaf`
 </details>
 
 <details>
 <summary>Filter, smooth, combine, etc. to create aggregated data</summary>
 
-`1-800-icestaf`
+  `1-800-icestaf`
 </details>
 
 
@@ -160,13 +160,13 @@ Mission Z: **TAF forecast**
 <details>
 <summary>If forecast is simple, script it in `report_forecast.R`</summary>
 
-`1-800-icestaf`
+  `1-800-icestaf`
 </details>
 
 <details>
 <summary>If complex, create separate analysis: data, input, etc.</summary>
 
-`1-800-icestaf`
+  `1-800-icestaf`
 </details>
 
 <br>
