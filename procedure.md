@@ -41,7 +41,7 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 > This is a good time to<br>
 > (a) view the input & output files, and<br>
-> (b) open the last WG report - especially the table section.<br>
+> (b) open the last WG report - especially the table section<br>
 > Do the tables in (a) and (b) look similar?
 
 </details>
