@@ -112,12 +112,10 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 > from that.<br>
 > \- this guarantees that the TAF data files are indeed the data that the model
 > uses<br>
-> When this is not practical, the workflow from `data.R` to `input.R` and
-> `model.R` should...<br>
-> When this is not practical, the workflow `data.R` > `input.R` > `model.R`
-> should...<br>
-> When this is not practical, the workflow `data.R` :arrow_right: `input.R`
-> :arrow_right: `model.R` should...
+> \- when this is not practical, it should still be easy to see from `data.R`,
+> `input.R` and `model.R` that the TAF data files correspond to the model
+> input<br>
+> Next line
 
 </details>
 
