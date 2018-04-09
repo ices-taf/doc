@@ -83,8 +83,10 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 <details><summary>Preprocess data</summary>
 
 > Some preprocessing of data often occurs before they are fed into a model:<br>
-> \- some years or ages might be excluded from the analysis<br>
+> \- years or ages might be excluded from the analysis<br>
 > \- ages might be aggregated into a plus group<br>
+> \- survey indices might be combined, the current year's weights predicted,
+> etc.<br>
 > The data should preferably start in disaggregated form (see 'Mission Y'
 > below).
 
