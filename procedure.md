@@ -108,7 +108,12 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Prepare model input</summary>
 
->
+> In the best case, `input.R` reads TAF data files and creates the model input
+> from that.<br>
+> \- this guarantees that the TAF data files are indeed the data that the model
+> uses<br>
+> When this is not practical, the workflow `data.R` -> `input.R` -> `model.R`
+> should...
 
 </details>
 
