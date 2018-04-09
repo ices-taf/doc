@@ -96,7 +96,7 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 > Data that are used in the assessment model should be made available as data
 > files in TAF format.<br>
-> The icesTAF package provides the function `write.csv` for this purpose.
+> The icesTAF package provides the function `write.csv` for this purpose.<br>
 > The resulting files will be visible to the public online, after the official
 > ICES advice is released.
 
