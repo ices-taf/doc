@@ -74,9 +74,9 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 > The easiest way to import data into R depends on the data file format:<br>
 > \- simple text files can often be imported using base functions like
-> `read.table`.<br>
+> `read.table`<br>
 > \- specific file formats can be imported using packages like `stockassessment`
-> or `FLCore`.
+> or `FLCore`
 
 </details>
 
