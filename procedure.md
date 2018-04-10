@@ -125,7 +125,15 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Run model</summary>
 
->
+> In TAF, stock assessment models are either run as:<br>
+> \- R packages, such as `stockassessment` and `FLR`, or<br>
+> \- executables, such as ADMB or Fortran applications<br>
+> R package models return the results into the R session, and those results can
+> be written out as `results.RData` inside the `model` folder.<br>
+> Executable models can be run using the R function `system` and the output
+> files are stored inside the `model` folder.<br>
+> Model settings are sometimes stored in files, especially for executable
+> models.
 
 </details>
 
