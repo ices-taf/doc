@@ -132,8 +132,8 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 > be written out as `results.RData` inside the `model` folder.<br>
 > Executable models can be run using the R function `system` and the output
 > files are stored inside the `model` folder.<br>
-> Model settings are sometimes stored in files, especially for executable
-> models.
+> Model settings are sometimes stored in files, especially in the case of
+> executable models.
 
 </details>
 
