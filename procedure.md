@@ -98,8 +98,8 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 > in the `data` folder.<br>
 > The icesTAF package provides the function `write.taf` for this purpose.<br>
 > Ideally, the TAF data files are the only files necessary for the `input.R`
-> script, but sometimes it's practical to write files in the `data` folder that
-> are not in the TAF file format.
+> script, but sometimes it's practical to write additional files in the `data`
+> folder that are not in the TAF file format.
 
 </details>
 
@@ -109,7 +109,7 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Prepare model input</summary>
 
-> The model input contains the data in the format that the model requires, for
+> The model input is data in the format that the model requires, for
 > example:<br>
 > \- text files such as `input.dat` with many tables, or<br>
 > \- `input.RData` with many R objects<br>
@@ -118,7 +118,7 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 > are indeed the data that the model uses.<br>
 > Sometimes it's practical to have the `input.R` script read/copy/move files
 > that are not in the TAF file format.<br>
-> Input files containing data in model-specific format are written in the
+> The input files, containing data in model-specific format, are written in the
 > `input` folder, ready for the next step.
 
 </details>
