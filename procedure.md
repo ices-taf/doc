@@ -109,14 +109,16 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Prepare model input</summary>
 
-> In the best case, `input.R` reads TAF data files and creates the model input
-> from that.<br>
-> \- this guarantees that the TAF data files are indeed the data that the model
-> uses<br>
-> \- when this is not practical, it should still be easy to see from `data.R`,
-> `input.R` and `model.R` that the TAF data files correspond to the model
-> input<br>
-> Next line
+> The model input contains the data in the format that the model requires, for example:<br>
+> - text files such as `input.dat` with many tables, or<br>
+> - `input.RData` with many R objects<br>
+> Ideally, `input.R` should read the TAF data files created by `data.R` and
+> create the model input from that, thus guaranteeing that the TAF data files
+> are indeed the data that the model uses.<br>
+> Sometimes it's practical to have the `input.R` script read/copy/move files
+> that are not in the TAF file format.<br>
+> Input files containing data in model-specific format are written in the
+> `input` folder, ready for the next step.
 
 </details>
 
