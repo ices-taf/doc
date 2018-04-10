@@ -94,11 +94,12 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 <details><summary>Write TAF files</summary>
 
-> Data that are used in the assessment model should be made available as data
-> files in TAF format.<br>
-> The icesTAF package provides the function `write.csv` for this purpose.<br>
-> The resulting files will be visible to the public online, after the official
-> ICES advice is released.
+> Data that are used in the assessment model should be written as TAF data files
+> in the `data` folder.<br>
+> The icesTAF package provides the function `write.taf` for this purpose.<br>
+> Ideally, the TAF data files are the only files necessary for the `input.R`
+> script, but sometimes it's practical to write files in the `data` folder that
+> are not in the TAF file format.
 
 </details>
 
