@@ -3,9 +3,9 @@
 
 ### overview of main phases
 
-[TAF @ Expert groups](https://github.com/ices-taf/doc/issues?q=label%3A%22Expert+Group+Work%22)
+[TAF @ Expert groups](https://github.com/ices-taf/doc/issues?q=label%3A%22Expert+Group+Work%22), i.e. stock assessment
 
-[TAF intersessional work](https://github.com/ices-taf/doc/issues?q=label%3A%22Intersessional+Work%22)
+[TAF intersessional work](https://github.com/ices-taf/doc/issues?q=label%3A%22Intersessional+Work%22), i.e. data preparation and forecasts
 
 ### detailed progress at stock level
 
