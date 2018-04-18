@@ -11,7 +11,7 @@
 
 [Progress on TAF stock assessments](https://github.com/ices-taf/doc/issues?q=label%3A%22TAF+stock+assessment%22)
 
-[Progress on data preparation](https://github.com/ices-taf/doc/issues?q=label%3A%22TAF+stock+assessment%22)
+[Progress on data preparation](https://github.com/ices-taf/doc/issues?q=label%3A%22TAF+data+preparation%22)
 
 [Progress on forecasts](https://github.com/ices-taf/doc/issues?q=label%3A%22TAF+forecast%22)
 
