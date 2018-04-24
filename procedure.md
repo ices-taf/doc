@@ -60,7 +60,9 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 > In general, TAF should only contain files that are absolutely necessary to run
 > the final assessment.<br>
-> All other files are probably best stored outside of TAF.<br>
+> \- all other files are probably best stored outside of TAF<br>
+> \- data files should include all available years and ages, which can be
+> truncated (e.g. in a plus group) in the data script<br>
 > What is the smallest set of files required to run the final assessment on
 > another computer?
 
@@ -96,7 +98,9 @@ Five steps to script the analysis from data to output (core assessment) in TAF:
 
 > Data that are used in the assessment model should be written as TAF data files
 > in the `data` folder.<br>
-> The icesTAF package provides the function `write.taf` for this purpose.<br>
+> \- the icesTAF package provides the function `write.taf` for this purpose<br>
+> \- write both full datasets (all ages, all years) and truncated datasets, e.g.
+> plus group in catch-at-age as `catage_full.csv` and `catage.csv`<br>
 > Ideally, the TAF data files are the only files necessary for the `input.R`
 > script, but sometimes it's practical to write additional files in the `data`
 > folder that are not in the TAF file format.
