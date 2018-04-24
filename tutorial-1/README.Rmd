@@ -4,7 +4,7 @@ output: github_document
 ---
 
 See also: [:arrow_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY),
-[:bookmark_tabs: TAF procedure](../procedure.md)
+[:scroll: TAF procedure](../procedure.md)
 
 **Contents**
 
