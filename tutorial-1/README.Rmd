@@ -5,7 +5,8 @@ output: github_document
 
 See also:
 [:arrow_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY),
-[:scroll: TAF procedure](../procedure.md)
+[:checkered_flag: TAF procedure](../procedure.md),
+[:bird: TAF flyer](https://ices-taf-dev.github.io/pdf/taf-flyer.pdf)
 
 **Contents**
 

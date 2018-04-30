@@ -1,7 +1,7 @@
 TAF tutorial 1: Simple assessment
 ================
 
-See also: [:arrow\_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY), [:scroll: TAF procedure](../procedure.md)
+See also: [:arrow\_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY), [:checkered\_flag: TAF procedure](../procedure.md), [:bird: TAF flyer](https://ices-taf-dev.github.io/pdf/taf-flyer.pdf)
 
 **Contents**
 
