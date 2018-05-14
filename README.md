@@ -44,3 +44,27 @@ output.R
 ### Units
 
 Tonnes, thousands of individuals
+
+## Begin folder
+
+### Data files
+
+The `begin/data` subfolder contains the initial data step to be archived. These
+files are the basis of all subsequent analysis, and guarantee that the TAF
+analysis can be rerun later and will reproduce the original results, even if
+data in the underlying databases (outside of TAF) may have changed after the
+original analysis was submitted.
+
+One objective of TAF is to document the data preparation. Therefore, the initial
+data files should represent the original data before the main preprocessing and
+data aggregation takes place. For example, the initial data could be the result
+of an SQL database query, selecting one species of interest and all relevant
+data columns for the analysis.
+
+### Model executables:
+
+The `begin/model` subfolder is for model source code and executables, when using
+a model that is not in the ICES Toolbox of stock assessment models.
+
+To make the analysis reproducible across platforms, two executables should be
+uploaded, one for Linux and one for Windows.
