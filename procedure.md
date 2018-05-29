@@ -1,4 +1,4 @@
-See also: [:arrow\_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY), [:checkered\_flag: TAF tutorial](tutorial-1/README.md), [:bird: TAF flyer](https://ices-taf-dev.github.io/pdf/taf-flyer.pdf)
+See also: [:arrow\_forward: TAF video](https://www.youtube.com/watch?v=FweJbr9hfdY), [:page\_facing\_up: TAF tutorial](tutorial-1/README.md), [:bird: TAF flyer](https://ices-taf-dev.github.io/pdf/taf-flyer.pdf)
 
 # Procedure to get an assessment into TAF
 
