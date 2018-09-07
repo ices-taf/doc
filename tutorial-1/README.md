@@ -25,7 +25,7 @@ In this tutorial we'll be looking at the TAF workflow, which is centered on R sc
 
 The aim of TAF is to implement a framework to organize *data*, *methods*, and *results* used in ICES assessments, so they're easy to find and rerun later with new data. If you look at the diagram showing the TAF workflow and the different components, it's about going from data to analysis and results.
 
-<img src="taf-diagram.png" alt="TAF diagram" width="700px">
+<img src="https://raw.githubusercontent.com/ices-taf/doc/master/tutorial-1/taf-diagram.png" alt="TAF diagram" width="700px">
 
 **Figure 1:** *TAF workflow*
 
