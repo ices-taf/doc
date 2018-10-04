@@ -15,3 +15,8 @@ icesTAF::clean()
 icesTAF::sourceAll()
 ```
 
+This ensures that the files and images found in the `data`, `input`, and `results` folders have been created on the TAF server and are therefore considered reproducible.
+
+### The `user` branch
+
+The 'user' branch hold the code (and potentially the results) uploaded by the TAF user.  Currently there are no restrictions on what files are uploaded to the user branch.
