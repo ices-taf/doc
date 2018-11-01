@@ -2,6 +2,32 @@
 
 ## Scripts
 
+Commonly used:
+
+```
+bootstrap.R
+data.R
+input.R
+model.R
+output.R
+report.R
+utilities.R
+```
+
+Variations:
+
+```
+data_construct.R
+data_export.R
+data_maturity.R
+data_survey.R
+report_tables.R
+report_plots.R
+utilities_input.R
+utilities_model.R
+utilities_output.R
+```
+
 ## Tables
 
 ### Age-structured example filenames
@@ -19,7 +45,7 @@ wcatch.csv
 wstock.csv
 ```
 
-Also:
+Variations:
 
 ```
 propf.csv
@@ -28,8 +54,6 @@ survey_ibts_q1.csv
 survey_ibts_q3.csv
 survey_smb.csv
 survey_smh.csv
-wcatch.csv
-wstock.csv
 ```
 
 ### DLS 3.1 example filenames
@@ -42,7 +66,7 @@ summary.csv
 surveys_all.csv
 ```
 
-Also:
+Variations:
 
 ```
 catch.csv
