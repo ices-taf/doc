@@ -7,7 +7,6 @@ Commonly used:
 ```
 bootstrap.R
 data.R
-input.R
 model.R
 output.R
 report.R
@@ -48,12 +47,26 @@ wstock.csv
 Variations:
 
 ```
+catage_fit.csv
+catage_full.csv
+datage.csv
+datage_full.csv
+latage.csv
+latage_full.csv
 propf.csv
 propm.csv
+survey_fr.csv
+survey_full.csv
 survey_ibts_q1.csv
 survey_ibts_q3.csv
-survey_smb.csv
-survey_smh.csv
+survey_uk.csv
+surveytime.csv
+wcatch_full.csv
+wlandings.csv
+wlandings_full.csv
+wdiscards.csv
+wdiscards_full.csv
+wstock_full.csv
 ```
 
 ### DLS example filenames
@@ -71,5 +84,5 @@ Variations:
 ```
 catch.csv
 cpue.csv
-surveys_all.csv
+survey.csv
 ```
