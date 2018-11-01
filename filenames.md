@@ -56,7 +56,7 @@ survey_smb.csv
 survey_smh.csv
 ```
 
-### DLS 3.1 example filenames
+### DLS example filenames
 
 Commonly used:
 
