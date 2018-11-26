@@ -39,3 +39,13 @@ Slide with topics - run this like an open session:
 
 #### 4. Online TAF demo - webpage, functionality, input data, analysis, output tables/plots (20 mins)
 
+Demonstrate via examples:
+
+1. North Sea Spotted Ray (5 mins)
+
+2. Fisheries overview maps (5 mins)
+
+3. RStox survey index calculation (5 mins)
+
+Close with ? (5 mins)
+
