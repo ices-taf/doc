@@ -25,10 +25,12 @@ As we have more time to play with we can add a bit more complexity.  Ideas are:
 * Introduce a wrong coloured block?
 * Make the pieces harder to find in the audience?
 
+___
 
 #### 2. Overview of topics - reproducible research, open data, peer review, quality control (30 mins)
 
 
+___
 
 #### 3. Interactive discussion with audience - experiences, challenges and solutions (30 mins)
 
@@ -36,6 +38,8 @@ Slide with topics - run this like an open session:
 1. Introduce discussion topics
 2. Open discussion with floor
 3. Summarise
+
+___
 
 #### 4. Online TAF demo - webpage, functionality, input data, analysis, output tables/plots (20 mins)
 
@@ -49,3 +53,4 @@ Demonstrate via examples:
 
 Close with ? (5 mins)
 
+___
