@@ -5,6 +5,8 @@
 
 **Where**: Iraq Room, FAO Headquarters, ROME
 
+**Running time**: 1h 30m
+
 ### Agenda
 
 1. Opening pitch, with audience participation (10 mins)
@@ -35,9 +37,10 @@ ___
 #### 3. Interactive discussion with audience - experiences, challenges and solutions (30 mins)
 
 Slide with topics - run this like an open session:
-1. Introduce discussion topics
-2. Open discussion with floor
-3. Summarise
+
+1. Introduce discussion topics (5 mins)
+2. Open discussion with floor (15-20 min)
+3. Summarise (5-10 mins)
 
 ___
 
