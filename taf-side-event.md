@@ -31,6 +31,7 @@ ___
 
 #### 2. Overview of topics - reproducible research, open data, peer review, quality control (30 mins)
 
+**The 'TAF' presentation**:
 
 ___
 
