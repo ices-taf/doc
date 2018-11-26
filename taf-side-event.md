@@ -7,6 +7,8 @@
 
 **Running time**: 1h 30m
 
+_For discussion see: https://github.com/ices-taf/doc/issues/212_
+
 ### Agenda
 
 1. Opening pitch, with audience participation (10 mins)
