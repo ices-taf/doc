@@ -32,6 +32,10 @@ As we have more time to play with we can add a bit more complexity.  Ideas are:
 
 #### 3. Interactive discussion with audience - experiences, challenges and solutions (30 mins)
 
+Slide with topics - run this like an open session:
+1. Introduce discussion topics
+2. Open discussion with floor
+3. Summarise
 
 #### 4. Online TAF demo - webpage, functionality, input data, analysis, output tables/plots (20 mins)
 
