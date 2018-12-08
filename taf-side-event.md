@@ -57,6 +57,6 @@ Demonstrate via examples:
 
 3. Fisheries overview maps (5 mins)
 
-Close with ? (5 mins)
+Closing (5 mins)
 
 ___
