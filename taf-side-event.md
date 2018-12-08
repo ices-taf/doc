@@ -53,9 +53,9 @@ Demonstrate via examples:
 
 1. North Sea Spotted Ray (5 mins)
 
-2. Fisheries overview maps (5 mins)
+2. Icelandic Haddock (5 mins)
 
-3. RStox survey index calculation (5 mins)
+3. Fisheries overview maps (5 mins)
 
 Close with ? (5 mins)
 
