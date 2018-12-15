@@ -51,6 +51,7 @@ catage_fit.csv
 catage_full.csv
 datage.csv
 datage_full.csv
+landfrac.csv
 latage.csv
 latage_full.csv
 propf.csv
