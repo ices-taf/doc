@@ -259,7 +259,7 @@ mkdir("report")
 summary <- read.taf("data/summary.csv")
 
 ## Plot
-tafpng("survey")
+taf.png("survey")
 plot(summary$Year, summary$Index, type="b", lty=3, ylim=lim(summary$Index),
      yaxs="i", main="Survey", xlab="Year", ylab="Index",
      panel.first=grid(lwd=2))
@@ -292,7 +292,7 @@ help(DLS3.2)
 We've also been using some R functions from the `icesTAF` package. If we take a
 look at the main help page for the `icesTAF` package, it lists all the functions
 by group. Some of them we've been using to read and write files, and we've been
-using `cp` and `mkdir` to manipulate files. We used `tafpng` to open a PNG
+using `cp` and `mkdir` to manipulate files. We used `taf.png` to open a PNG
 graphics device, to draw an image and write it in PNG format.
 
 ```{r, eval=FALSE}
@@ -303,7 +303,7 @@ help(icesTAF)
 Most of the `icesTAF` functions are very short and simple, but they're simply
 there to make the scripts look more readable. They're convenient shorthand
 functions, to get to the point without some boilerplate code that's needed. For
-example, in `report.R` we were using `tafpng` so it uses the suggested image
+example, in `report.R` we were using `taf.png` so it uses the suggested image
 size and so forth.
 
 We also see in the help page some functions to run the scripts: `sourceTAF` to
