@@ -4,11 +4,11 @@
 
 ### Files
 
-The metadata files `data.bib` and `software.bib` can only exist in these file
+The metadata files `DATA.bib` and `SOFTWARE.bib` can only exist in these file
 locations:
 
-- `bootstrap/data.bib`
-- `bootstrap/software.bib`
+- `bootstrap/DATA.bib`
+- `bootstrap/SOFTWARE.bib`
 
 ## 2. Warnings
 
@@ -34,4 +34,4 @@ The following files are expected to exist:
 - `data.R`
 - `model.R`
 - `output.R`
-- `bootstrap/data.bib`
+- `bootstrap/DATA.bib`
