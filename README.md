@@ -29,11 +29,11 @@ URL | Purpose
 
 The entire stock assessment workflow is scripted in a series of R scripts:
 
-``
+```
 data.R
 model.R
 output.R
-``
+```
 
 ## TAF Data Format
 
