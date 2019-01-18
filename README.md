@@ -29,16 +29,23 @@ URL | Purpose
 
 The TAF stock assessment workflow is scripted in a series of R scripts.
 
-| Core scripts | Purpose                                              |
-| ------------ | ---------------------------------------------------- |
-| `data.R`     | preprocess data, write TAF data tables               |
-| `model.R`    | run analysis, write model results                    |
-| `output.R`   | extract results of interest, write TAF output tables |
+Core scripts | Purpose
+------------ | -------
+`data.R`     | preprocess data, write TAF data tables
+`model.R`    | run analysis, write model results
+`output.R`   | extract results of interest, write TAF output tables
 
-| Auxiliary scripts | Purpose                                            |
-| ----------------- | -------------------------------------------------- |
-| `bootstrap.R`     | rarely used, see link to `taf.bootstrap` below     |
-| `report.R`        | optional script to prepare plots/tables for report |
+Optional scripts include `report.R` (prepare plots/tables for the report) and
+`utilities.R` (custom functions used in the above scripts).
+
+If a script becomes long, it is recommended to split it into separate scripts
+with the same filename prefix, e.g. `report_plots.R` and `report_tables.R`,
+where a main `report.R` script can simply source the underlying scripts:
+
+```r
+source report_plots.R
+source report_tables.R
+```
 
 ## TAF Data Format
 
