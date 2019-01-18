@@ -27,13 +27,17 @@ URL | Purpose
 
 ## General Principles
 
-The entire stock assessment workflow is scripted in a series of R scripts:
+The TAF stock assessment workflow is scripted in a series of R scripts.
 
-```
-data.R
-model.R
-output.R
-```
+### Core scripts
+
+`data.R`
+
+`model.R`
+
+`output.R`
+
+### Auxiliary scripts
 
 ## TAF Data Format
 
