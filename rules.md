@@ -1,9 +1,9 @@
 # TAF Rules and Recommendations
 
 As a general framework, TAF allows a wide variety of analyses to run on the TAF
-server. Only a few rules and recommendations have been developed, to establish a
-workflow that allows anyone to reproduce and review (read and understand) the
-analysis.
+server. At the same, some level of uniformity is useful. A few rules and
+recommendations have been developed for TAF, to establish a workflow that allows
+anyone to run and review (read and understand) the analysis.
 
 Breaking a rule results in an **error**. The TAF server will not run the
 analysis until such an issue is improved.
@@ -25,16 +25,25 @@ procedure), and final scan (after R scripts have run).
 
 **1.1.1 Files**
 
-The metadata files `DATA.bib` and `SOFTWARE.bib` can only exist in these file
-locations:
+(a) R scripts use the uppercase `.R` file extension:
+
+- `*.R`
+
+(b) The metadata files `DATA.bib` and `SOFTWARE.bib` can only exist in these
+file locations:
 
 - `bootstrap/DATA.bib`
 - `bootstrap/SOFTWARE.bib`
 
-**1.1.2 Functions**
+**1.1.2 Code**
 
-These functions cannot appear in TAF scripts, except in a custom `bootstrap.R`
-script:
+(a) Files inside the `bootstrap/initial` subdirectory cannot be accessed by TAF
+scripts, except in a custom `bootstrap.R` script:
+
+- `bootstrap/initial/*`
+
+(b) These functions cannot appear in TAF scripts, except in a custom
+`bootstrap.R` script:
 
 - `.libPaths`
 - `download`
@@ -45,10 +54,6 @@ script:
 - `taf.bootstrap`
 
 ### 1.2 Recommendations (warn)
-
-R scripts should use the uppercase `.R` file extension:
-
-- `*.R`
 
 ### 1.3 Recommendations (note)
 
@@ -61,13 +66,13 @@ R scripts should use the uppercase `.R` file extension:
 - `output.R`
 - `bootstrap/DATA.bib`
 
-(b) Raise a flag if a custom bootstrap file is found:
-
-- `bootstrap.R`
-
-(c) R scripts are only expected at the top level:
+(b) R scripts are expected at the top level, not inside directories:
 
 - `./*.R`
+
+(c) Raise a flag if a custom bootstrap file is found:
+
+- `bootstrap.R`
 
 ## 2. Middle scan
 
