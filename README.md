@@ -37,6 +37,9 @@ The TAF stock assessment workflow is scripted in a series of R scripts.
 
 ### Auxiliary scripts
 
+| `bootstrap.R` | rarely used, see link to `taf.bootstrap` below     |
+| `report.R`    | optional script to prepare plots/tables for report |
+
 ## TAF Data Format
 
 ### CSV Files
