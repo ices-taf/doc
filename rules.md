@@ -33,8 +33,8 @@ locations:
 
 **1.1.2 Functions**
 
-These functions should not appear in TAF scripts, except in a custom
-`bootstrap.R` script:
+These functions cannot appear in TAF scripts, except in a custom `bootstrap.R`
+script:
 
 - `.libPaths`
 - `download`
