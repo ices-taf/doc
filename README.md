@@ -31,11 +31,9 @@ The TAF stock assessment workflow is scripted in a series of R scripts.
 
 ### Core scripts
 
-`data.R`
-
-`model.R`
-
-`output.R`
+- `data.R`
+- `model.R`
+- `output.R`
 
 ### Auxiliary scripts
 
