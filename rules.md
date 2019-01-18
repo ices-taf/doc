@@ -23,7 +23,7 @@ procedure), and final scan (after R scripts have run).
 
 ### 1.1 Rules
 
-**Files**
+**1.1.1 Files**
 
 The metadata files `DATA.bib` and `SOFTWARE.bib` can only exist in these file
 locations:
@@ -31,7 +31,7 @@ locations:
 - `bootstrap/DATA.bib`
 - `bootstrap/SOFTWARE.bib`
 
-**Functions**
+**1.1.2 Functions**
 
 These functions should not appear in TAF scripts, except in a custom
 `bootstrap.R` script:
@@ -50,18 +50,22 @@ None.
 
 ### 1.3 Recommendations (note)
 
-**Files**
+**1.3.1 Files**
 
-The following files are expected to exist:
+(a) The following files are expected to exist:
 
 - `data.R`
 - `model.R`
 - `output.R`
 - `bootstrap/DATA.bib`
 
-Raise a flag if a custom bootstrap file is found:
+(b) Raise a flag if a custom bootstrap file is found:
 
 - `bootstrap.R`
+
+(c) R scripts are only expected at the top level:
+
+- `./*.R`
 
 ## 2. Middle scan
 
