@@ -5,7 +5,6 @@
 Commonly used:
 
 ```
-bootstrap.R
 data.R
 model.R
 output.R
@@ -16,12 +15,13 @@ utilities.R
 Variations:
 
 ```
+bootstrap.R
 data_construct.R
 data_export.R
 data_maturity.R
 data_survey.R
-report_tables.R
 report_plots.R
+report_tables.R
 utilities_data.R
 utilities_model.R
 utilities_output.R
