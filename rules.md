@@ -1,8 +1,9 @@
 # TAF Rules and Recommendations
 
 As a general framework, TAF allows a wide variety of analyses to run on the TAF
-server. The definition of a TAF analysis can be expressed as a set of rules and
-recommendations.
+server. Only a few rules and recommendations have been developed, to establish a
+workflow that allows anyone to reproduce and review (read and understand) the
+analysis.
 
 Breaking a rule results in an **error**. The TAF server will not run the
 analysis until such an issue is improved.
