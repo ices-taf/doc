@@ -46,7 +46,9 @@ These functions should not appear in TAF scripts, except in a custom
 
 ### 1.2 Recommendations (warn)
 
-None.
+R scripts should use the uppercase `.R` file extension:
+
+- `*.R`
 
 ### 1.3 Recommendations (note)
 
