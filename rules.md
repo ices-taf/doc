@@ -2,7 +2,7 @@
 
 ## 1. Errors
 
-### Bootstrap
+### Files
 
 The metadata files `data.bib` and `software.bib` can only exist in these file
 locations:
@@ -11,6 +11,8 @@ locations:
 - `bootstrap/software.bib`
 
 ## 2. Warnings
+
+### Functions
 
 These functions should not appear in TAF scripts, except in a custom
 `bootstrap.R` script:
@@ -24,6 +26,8 @@ These functions should not appear in TAF scripts, except in a custom
 - `taf.bootstrap`
 
 ## 3. Notes
+
+### Files
 
 The following files are expected to exist:
 
