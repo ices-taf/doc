@@ -35,7 +35,7 @@ file locations:
 - `bootstrap/DATA.bib`
 - `bootstrap/SOFTWARE.bib`
 
-**1.1.2 Code**
+**1.1.2 Content**
 
 (a) Files inside the `bootstrap/initial` subdirectory cannot be accessed by TAF
 scripts, except in a custom `bootstrap.R` script:
@@ -52,6 +52,11 @@ scripts, except in a custom `bootstrap.R` script:
 - `install.packages`
 - `process.bib`
 - `taf.bootstrap`
+
+(c) Authors in `SOFTWARE.bib` are spelled out as `{First M Last and First M Last
+and First M Last}`, so the `author` field has no commas:
+
+- `,`
 
 ### 1.2 Recommendations (warn)
 
