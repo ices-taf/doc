@@ -1,0 +1,9 @@
+# ignore rstudio files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# ignore installed packages
+bootstrap/library/
