@@ -1,9 +1,3 @@
-### Summary
-{Html_url}
-
-### Tasks required
-see: https://taf.ices.dk/app/procedure
-
 1: Get model to run
 
 - [ ] Contact assessment coordinator
