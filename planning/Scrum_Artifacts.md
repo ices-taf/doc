@@ -11,6 +11,9 @@ For example in coding jobs can be: well commented, has tests written for it, pas
 
 See [here](planning/Definition_of_done.md) for the TAF projects definition of done.
 
+Note that this is an agreement between the dev team and the product owner.  Each individual backlog item
+will have thier own acceptance criteria.
+
 ## Product backlog
 
 Is a list of items which are small but nonetheless composed of several tasks.  It is a big list of items, 
@@ -24,7 +27,7 @@ and as items move up the list they may be split into smaller items to ensure the
 * Small
 * Testable
 
-by the time the get to the top of the list and are ready to be selected as a sprint backlog item.
+by the time the get to the top of the list and are ready to be selected as a sprint backlog item. Part of being testable is having agreed acceptance criteria.
 
 ## Sprint backlog
 
