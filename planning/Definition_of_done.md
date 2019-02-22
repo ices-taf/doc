@@ -10,7 +10,7 @@ Based on: https://github.com/ices-tools-prod/doc#adding-a-new-function
 - [ ] defining the logic
 - [ ] write code
 - [ ] write / update documentation for feature
-- [ ] Update other linking documentation
+- [ ] update other linking documentation
 - [ ] update application level documentation (could be an application readme or main package help).
 - [ ] update change log (NEWS file) corresponding to a version number and date.
 - [ ] update version number and date in metadata (DESCRIPTION in R packages).
