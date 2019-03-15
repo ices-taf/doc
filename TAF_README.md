@@ -1,6 +1,6 @@
 ## How to run
 
-Install the icesTAF package, version >=2.1 from CRAN.
+Install the [icesTAF](https://github.com/ices-tools-prod/icesTAF) package from CRAN.
 
 Then open R in the `{repoName}` directory and run:
 
