@@ -53,6 +53,10 @@ scripts, except in a custom `bootstrap.R` script:
 - `process.bib`
 - `taf.bootstrap`
 
+(c) All text files that have non-ASCII characters must be encoded as UTF-8:
+
+- `enc.latin1`
+
 ### 1.2 Recommendations (warn)
 
 ### 1.3 Recommendations (note)
