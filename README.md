@@ -35,8 +35,8 @@ Core scripts | Purpose
 `model.R`    | run analysis, write model results
 `output.R`   | extract results of interest, write TAF output tables
 
-Optional scripts include `report.R` (prepare plots/tables for the report) and
-`utilities.R` (custom functions used in the above scripts).
+Optional scripts include `report.R` (prepare plots and tables for the report)
+and `utilities.R` (custom functions used in the above scripts).
 
 If a script becomes long, it is recommended to split it into separate scripts
 with the same filename prefix, e.g. `report_plots.R` and `report_tables.R`,
