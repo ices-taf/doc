@@ -53,11 +53,6 @@ scripts, except in a custom `bootstrap.R` script:
 - `process.bib`
 - `taf.bootstrap`
 
-(c) Authors in `SOFTWARE.bib` are spelled out as `{First M Last and First M Last
-and First M Last}`, so the `author` field has no commas:
-
-- `,`
-
 ### 1.2 Recommendations (warn)
 
 ### 1.3 Recommendations (note)
@@ -78,6 +73,11 @@ and First M Last}`, so the `author` field has no commas:
 (c) Raise a flag if a custom bootstrap file is found:
 
 - `bootstrap.R`
+
+(d) Authors in `SOFTWARE.bib` are spelled out as `{First M Last and First M Last
+and First M Last}`, so the `author` field has no commas:
+
+- `,`
 
 ## 2. Middle scan
 
