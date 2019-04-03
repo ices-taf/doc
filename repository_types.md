@@ -61,7 +61,7 @@ or
 2019_cod.27.47d20_assmnt_multifleet
 ```
 
-The `<model>` type for now is less strictly controlled, but could be linked to the model vocabulary: https://vocab.ices.dk/?ref=1525
+The `<identifier>` type for now is less strictly controlled, but could be linked (loosely) to a set of vocabularies, such as the model name https://vocab.ices.dk/?ref=1525, survey name vocabulary?
 
 
 ## As JSON
