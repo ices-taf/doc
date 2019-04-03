@@ -13,11 +13,15 @@ for example
 2019_cod.27.47d20_forecasts
 ```
 
-The list of `<types>` are as follows (to be created as vocabularies):
+The list of `<type>`s are as follows (to be created as vocabularies):
 * `data`
 * `assmnt`
 * `forecasts`
 * `refpoints`
+
+The `data` type can be split down into the type of data analysis being done:
+* `data.survey`
+* `data.catch`
 
 there is also the possibility of using a type for benchmark assessments
 * `benchmark`
@@ -27,10 +31,10 @@ there is also the possibility of using a type for benchmark assessments
 
 for example: 
 ```
-2019_cod.27.47d20_benchmark.data
+2019_cod.27.47d20_data.survey
+2019_cod.27.47d20_benchmark.data.survey
 ```
-
-is would be a TAF repository to hold the data preparation scripts used at a benchmark workshop.
+this last examlple would be a TAF repository to hold the data preparation scripts for creating the survey index used at a benchmark workshop.
 
 ## adding alternative assessments and procedures
 
