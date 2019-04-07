@@ -30,7 +30,7 @@ procedure), and final scan (after R scripts have run).
 - `*.R`
 
 (b) The metadata files `DATA.bib` and `SOFTWARE.bib` can only exist in these
-file locations:
+    file locations:
 
 - `bootstrap/DATA.bib`
 - `bootstrap/SOFTWARE.bib`
@@ -38,12 +38,12 @@ file locations:
 **1.1.2 Content**
 
 (a) Files inside the `bootstrap/initial` subdirectory cannot be accessed by TAF
-scripts, except in a custom `bootstrap.R` script:
+    scripts, except in a custom `bootstrap.R` script:
 
 - `bootstrap/initial/*`
 
 (b) These functions cannot appear in TAF scripts, except in a custom
-`bootstrap.R` script:
+    `bootstrap.R` script:
 
 - `.libPaths`
 - `download`
@@ -53,13 +53,18 @@ scripts, except in a custom `bootstrap.R` script:
 - `process.bib`
 - `taf.bootstrap`
 
-(c) All text files that have non-ASCII characters must be encoded as UTF-8:
+(d) All text files that have non-ASCII characters must be encoded as UTF-8:
 
 - `enc.latin1`
 
 ### 1.2 Recommendations (warn)
 
 ### 1.3 Recommendations (note)
+
+(a) This string should not appear in TAF scripts, except in a custom
+    `bootstrap.R` script:
+
+- `http`
 
 **1.3.1 Files**
 
@@ -78,8 +83,9 @@ scripts, except in a custom `bootstrap.R` script:
 
 - `bootstrap.R`
 
-(d) Authors in `SOFTWARE.bib` are spelled out as `{First M Last and First M Last
-and First M Last}`, so the `author` field has no commas:
+(d) Authors in `SOFTWARE.bib` are spelled out as
+   `{First M Last and First M Last and First M Last}`, so the `author` field has
+   no commas:
 
 - `,`
 
