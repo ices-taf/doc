@@ -11,7 +11,7 @@ analysis until such an issue is improved.
 Not following a recommendation can either result in a warning or a note. A
 **warning** is an issue that should be relatively straightforward for the user
 to improve. A **note**, on the other hand, is a flag that may be related to an
-intentional feature in an unconventional TAF analysis.
+intentional feature in an unusal TAF analysis.
 
 There are three points in time when TAF rules and recommendations are checked:
 the first scan (before anything is run), the middle scan (after bootstrap
