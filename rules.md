@@ -1,7 +1,7 @@
 # TAF Rules and Recommendations
 
 As a general framework, TAF allows a wide variety of analyses to run on the TAF
-server. At the same, some level of uniformity is useful. A few rules and
+server. At the same time, some level of uniformity is useful. A few rules and
 recommendations have been developed for TAF, to establish a workflow that allows
 anyone to run and review (read and understand) the analysis.
 
@@ -64,7 +64,12 @@ procedure), and final scan (after R scripts have run).
 (a) This string should not appear in TAF scripts, except in a custom
     `bootstrap.R` script:
 
-- `http`
+- `http` (except stockassessment.org?)
+
+(b) Rounding functions should not be used in data.R, model.R, or output.R:
+
+- `round`
+- `rnd`
 
 **1.3.1 Files**
 
