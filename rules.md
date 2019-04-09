@@ -81,15 +81,11 @@ procedure), and final scan (after R scripts have run).
 - `output.R`
 - `bootstrap/DATA.bib`
 
-(b) R scripts are expected at the top level, not inside directories:
-
-- `./*.R`
-
-(c) Raise a flag if a custom bootstrap file is found:
+(b) Raise a flag if a custom bootstrap file is found:
 
 - `bootstrap.R`
 
-(d) Authors in `SOFTWARE.bib` are spelled out as
+(c) Authors in `SOFTWARE.bib` are spelled out as
    `{First M Last and First M Last and First M Last}`, so the `author` field has
    no commas:
 
