@@ -68,8 +68,9 @@ procedure), and final scan (after R scripts have run).
 
 (b) Rounding functions should not be used in data.R, model.R, or output.R:
 
-- `round`
-- `rnd`
+- `icesRound(`
+- `round(`
+- `rnd(`
 
 **1.3.1 Files**
 
