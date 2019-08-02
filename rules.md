@@ -57,6 +57,13 @@ procedure), and final scan (after R scripts have run).
 
 - `enc.latin1`
 
+(e) Each TAF script should only write to its corresponding directory:
+
+- `data.R` writes to `data`
+- `model.R` writes to `model`
+- `output.R` writes to `output`
+- `report.R` writes to `report`
+
 ### 1.2 Recommendations (warn)
 
 ### 1.3 Recommendations (note)
@@ -98,3 +105,7 @@ procedure), and final scan (after R scripts have run).
 ## 3. Final scan
 
 *Examines files that were created by the R scripts*
+
+<hr>
+
+> https://www.ietf.org/rfc/rfc2119.txt
