@@ -17,13 +17,12 @@ ICES data services.
 URL | Purpose
 --- | -------
 [taf.ices.dk](http://taf.ices.dk) | Main landing page
-[taf.ices.local/TAF](http://taf.ices.local/TAF) | TAF development web page (only available within ICES)
-[ices-taf-dev.github.io](https://ices-taf-dev.github.io) | Technical overview and design comments
-[github.com/ices-taf](https://github.com/ices-taf)| Assessments (R scripts)
-[github.com/ices-taf/doc](https://github.com/ices-taf/doc) | User guidelines
-[github.com/ices-tools-prod](https://github.com/ices-tools-prod) | R packages
-[github.com/ices-taf/doc/projects/1](https://github.com/ices-taf/doc/projects/1?fullscreen=true) | TAF development project board
-[github.com/ices-taf/doc/milestones](https://github.com/ices-taf/doc/milestones?direction=asc&sort=due_date&state=open) | TAF project monthly sprints
+[ices-taf/doc/wiki](https://github.com/ices-taf/doc/wiki) | TAF Wiki
+[ices-taf](https://github.com/ices-taf)| TAF assessments and other analyses
+[ices-taf/doc/blob/master/ices_github_guidelines.md](https://github.com/ices-taf/doc/blob/master/ices_github_guidelines.md) | User guidelines
+[ices-tools-prod](https://github.com/ices-tools-prod) | R packages
+[ices-taf/doc/projects/1](https://github.com/ices-taf/doc/projects/1?fullscreen=true) | TAF development project board
+[ices-taf/doc/milestones](https://github.com/ices-taf/doc/milestones?direction=asc&sort=due_date&state=open) | TAF project monthly sprints
 
 ## General Principles
 
@@ -42,7 +41,7 @@ If a script becomes long, it is recommended to split it into separate scripts
 with the same filename prefix, e.g. `report_plots.R` and `report_tables.R`,
 where a main `report.R` script can simply source the underlying scripts:
 
-```r
+``` r
 source("report_plots.R")
 source("report_tables.R")
 ```
