@@ -43,8 +43,8 @@ with the same filename prefix, e.g. `report_plots.R` and `report_tables.R`,
 where a main `report.R` script can simply source the underlying scripts:
 
 ```r
-source report_plots.R
-source report_tables.R
+source("report_plots.R")
+source("report_tables.R")
 ```
 
 ## TAF Data Format
