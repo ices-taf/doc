@@ -18,6 +18,7 @@
   - Syntax checkers
   - Value checkers
   - Metadata checkers
+- Show README.md on TAF web server (info)
 
 ### Documentation
 
