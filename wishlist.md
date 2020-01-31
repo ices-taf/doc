@@ -14,7 +14,7 @@
   - Progress checkers
   - Folder checkers
   - Filename checkers
-  - Column name checkers
+  - Field name checkers
   - Syntax checkers
   - Value checkers
   - Metadata checkers
@@ -30,21 +30,21 @@
 
 ### Objectives
 
-reached already | short-term | long-term
-critical | important | nice to have
+| reached already | short-term | long-term |
+
+| critical | important | nice to have |
 
 - Reproducible analysis (easy to update, institutional memory)
 - Standard scripts (easy to review)
 - Long-term reproducibility
 - Human-readable input and output
 - Machine-readable input and output (qc, products, disseminate)
-- Standard repo names yyyy_stock.code_type
-- Standard filenames.csv
-- Standard ColumnNames
+- Standard repo names `yyyy_stock.code_type`
+- Standard filenames and field names (check out RAM Legacy)
 
-### Avoid ambiguity and confusion
+### Suggestions
 
-Rename
+Avoid ambiguity and confusion, by renaming
 ```bootstrap```
 to
 ```boot```
