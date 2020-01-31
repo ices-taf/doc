@@ -17,6 +17,7 @@
   - Column name checkers
   - Syntax checkers
   - Value checkers
+  - Metadata checkers
 
 ### Documentation
 
