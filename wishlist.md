@@ -39,3 +39,11 @@ critical | important | nice to have
 - Standard repo names yyyy_stock.code_type
 - Standard filenames.csv
 - Standard ColumnNames
+
+### Avoid ambiguity and confusion
+
+Rename
+```bootstrap```
+to
+```boot```
+[Jose De Oliveira]
