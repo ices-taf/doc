@@ -1,0 +1,44 @@
+{
+  "title": "ICES Transparent Assessment Framework Stockassessment results upload",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "format for uploading age based stock assessment data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "unit",
+    "valueType",
+    "values"
+  ],
+  "properties": {
+    "unit": {
+      "description": "The unit of the values",
+      "type": "string"
+    },
+    "valueType": {
+      "description": "The type of result, harvest, stock numbers, catch numbers, etc.",
+      "type": "string",
+      "enum": [
+        "harvest"
+      ]
+    },
+    "values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number",
+            "minimum": 0
+          },
+          "year": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "value", "year"
+        ]
+      },
+      "minItems": 1
+    }
+  }
+}
