@@ -84,6 +84,8 @@ Required:
 ```
 fatage.csv
 natage.csv
+qatage_ibtsq1.csv
+qatage_ibtsq2.csv
 summary.csv
 ```
 
