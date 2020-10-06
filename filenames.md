@@ -9,6 +9,7 @@ data.R
 model.R
 output.R
 report.R
+report.Rmd
 utilities.R
 ```
 
@@ -29,46 +30,72 @@ utilities_output.R
 
 ## Tables
 
-### Age-structured example filenames
+### Age-structured data filenames
 
-Commonly used:
+Required:
 
+`data/`
 ```
 catage.csv
-fatage.csv
 maturity.csv
-natage.csv
 natmort.csv
-summary.csv
-wcatch.csv
 wstock.csv
+wcatch.csv
 ```
 
-Variations:
-
+Survey indices should be saved as `survey_{survey name}.csv`, for example:
+`data/`
 ```
-catage_fit.csv
-catage_full.csv
-catch.csv  (in tonnes)
+survey_frgfs.csv
+survey_ibtsq1.csv
+survey_ibtsq3.csv
+```
+
+Additional:
+
+`data/`
+```
 datage.csv
-datage_full.csv
-landfrac.csv
+wdiscards.csv
 latage.csv
-latage_full.csv
+wlandings.csv
 propf.csv
 propm.csv
-survey_fr.csv
-survey_full.csv
-survey_ibts_q1.csv
-survey_ibts_q3.csv
-survey_uk.csv
-surveytime.csv
+```
+
+Files containing the full age range if the assessment uses a plus group, can 
+be recorded using the suffix `_full`:
+`data/`
+```
+catage_full.csv
 wcatch_full.csv
-wlandings.csv
-wlandings_full.csv
-wdiscards.csv
+datage_full.csv
 wdiscards_full.csv
+latage_full.csv
+wlandings_full.csv
 wstock_full.csv
+```
+
+### Age-structured output filenames
+
+Required:
+
+`output/`
+```
+fatage.csv
+natage.csv
+summary.csv
+```
+
+If catches, and / or landings, discards and survey indices are estimated, these can be
+recorded, using the suffix `_est`:
+`output/`
+```
+catage_est.csv
+datage_est.csv
+latage_est.csv
+survey_ibtsq1_est.csv
+survey_ibtsq3_est.csv
 ```
 
 ### DLS example filenames
