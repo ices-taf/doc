@@ -44,6 +44,7 @@ wcatch.csv
 ```
 
 Survey indices should be saved as `survey_{survey name}.csv`, for example:
+
 `data/`
 ```
 survey_frgfs.csv
@@ -65,6 +66,7 @@ propm.csv
 
 Files containing the full age range if the assessment uses a plus group, can 
 be recorded using the suffix `_full`:
+
 `data/`
 ```
 catage_full.csv
@@ -91,6 +93,7 @@ summary.csv
 
 If catches, and / or landings, discards and survey indices are estimated, these can be
 recorded, using the suffix `_est`:
+
 `output/`
 ```
 catage_est.csv
