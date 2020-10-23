@@ -29,6 +29,5 @@ baltic_eco <- grep("Baltic", ecoregions, value = TRUE)
 # to get all years (year = 0)
 vms <- get_vms(ecoregion = baltic_eco, year = 2009)
 
-
 # save
 write.taf(vms)
