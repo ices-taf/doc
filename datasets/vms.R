@@ -26,7 +26,9 @@ baltic_eco <- grep("Baltic", ecoregions, value = TRUE)
 # note to access download a token for the current R session using
 # update_token({ices username})
 
-vms <- get_vms(ecoregion = baltic_eco)
+# to get all years (year = 0)
+vms <- get_vms(ecoregion = baltic_eco, year = 2009)
+
 
 # save
 write.taf(vms)
