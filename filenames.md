@@ -16,7 +16,6 @@ utilities.R
 Variations:
 
 ```
-bootstrap.R
 data_construct.R
 data_export.R
 data_maturity.R
@@ -64,8 +63,8 @@ propf.csv
 propm.csv
 ```
 
-Files containing the full age range if the assessment uses a plus group, can 
-be recorded using the suffix `_full`:
+Files containing the full age range if the assessment uses a plus group, can be
+recorded using the suffix `_full`:
 
 `data/`
 ```
@@ -91,8 +90,8 @@ qatage_ibtsq2.csv
 summary.csv
 ```
 
-If catches, and / or landings, discards and survey indices are estimated, these can be
-recorded, using the suffix `_est`:
+If catches, and / or landings, discards and survey indices are estimated, these
+can be recorded, using the suffix `_est`:
 
 `output/`
 ```
