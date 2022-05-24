@@ -46,6 +46,11 @@ source("report_plots.R")
 source("report_tables.R")
 ```
 
+## TAF Data Flow
+
+The TAF [data presentation](data-presentation.pdf) describes the flow of data
+from `bootstrap/initial/data` to `bootstrap/data` and finally to `data`.
+
 ## TAF Data Format
 
 ### CSV Files
