@@ -14,15 +14,23 @@ ICES data services.
 
 ### Websites
 
-URL | Purpose
---- | -------
-[taf.ices.dk](http://taf.ices.dk) | Main landing page
-[ices-taf/doc/wiki](https://github.com/ices-taf/doc/wiki) | TAF Wiki
-[ices-taf](https://github.com/ices-taf)| TAF assessments and other analyses
-[ices-taf/doc/blob/master/ices_github_guidelines.md](https://github.com/ices-taf/doc/blob/master/ices_github_guidelines.md) | User guidelines
-[ices-tools-prod](https://github.com/ices-tools-prod) | R packages
-[ices-taf/doc/projects/1](https://github.com/ices-taf/doc/projects/1?fullscreen=true) | TAF development project board
-[ices-taf/doc/milestones](https://github.com/ices-taf/doc/milestones?direction=asc&sort=due_date&state=open) | TAF project monthly sprints
+URL                                                                                        | Purpose
+------------------------------------------------------------------------------------------ | ----------------------------------
+[taf.ices.dk](http://taf.ices.dk)                                                          | Main landing page
+[doc](https://github.com/ices-taf/doc)                                                     | Documentation
+[wiki](https://github.com/ices-taf/doc/wiki)                                               | Wiki
+[ices-taf](https://github.com/ices-taf)                                                    | Assessments and other analyses
+[diagrams](diagrams)                                                                       | Introductory diagrams
+[tutorial-1](tutorial-1)                                                                   | Tutorial 1: Simple assessment
+[github_guidelines](https://github.com/ices-taf/doc/blob/master/ices_github_guidelines.md) | ICES GitHub
+
+### Packages
+
+Package   | Links
+--------- | -----------------------------------------------------------------------------------------------------------------------
+icesTAF   | [CRAN homepage](https://github.com/ices-tools-prod/icesTAF) and [help pages](https://rdrr.io/cran/TAF/man/)
+TAF       | [CRAN homepage](https://github.com/ices-tools-prod/TAF) and [help pages](https://rdrr.io/cran/TAF/man/TAF-package.html)
+ICES pkgs | [GitHub repos](https://github.com/ices-tools-prod) and [release history](release_history.html)
 
 ## General Principles
 
