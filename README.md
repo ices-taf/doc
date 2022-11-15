@@ -30,7 +30,7 @@ Package   | Links
 --------- | -----------------------------------------------------------------------------------------------------------------------
 icesTAF   | [CRAN homepage](https://github.com/ices-tools-prod/icesTAF) and [help pages](https://rdrr.io/cran/TAF/man/)
 TAF       | [CRAN homepage](https://github.com/ices-tools-prod/TAF) and [help pages](https://rdrr.io/cran/TAF/man/TAF-package.html)
-ICES pkgs | [GitHub repos](https://github.com/ices-tools-prod) and [release history](release_history.html)
+ICES pkgs | [GitHub repos](https://github.com/ices-tools-prod) and [release history](release_history.md)
 
 ## General Principles
 
