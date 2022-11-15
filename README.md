@@ -15,22 +15,22 @@ ICES data services.
 ### Websites
 
 URL                                                                                        | Purpose
------------------------------------------------------------------------------------------- | ----------------------------------
+------------------------------------------------------------------------------------------ | ------------------------------
 [taf.ices.dk](http://taf.ices.dk)                                                          | Main landing page
 [doc](https://github.com/ices-taf/doc)                                                     | Documentation
 [wiki](https://github.com/ices-taf/doc/wiki)                                               | Wiki
 [ices-taf](https://github.com/ices-taf)                                                    | Assessments and other analyses
 [diagrams](diagrams)                                                                       | Introductory diagrams
-[tutorial-1](tutorial-1)                                                                   | Tutorial 1: Simple assessment
+[tutorial](tutorial-1)                                                                     | Tutorial: Simple assessment
 [github_guidelines](https://github.com/ices-taf/doc/blob/master/ices_github_guidelines.md) | ICES GitHub
 
 ### Packages
 
 Package   | Links
 --------- | -----------------------------------------------------------------------------------------------------------------------
-icesTAF   | [CRAN homepage](https://github.com/ices-tools-prod/icesTAF) and [help pages](https://rdrr.io/cran/TAF/man/)
-TAF       | [CRAN homepage](https://github.com/ices-tools-prod/TAF) and [help pages](https://rdrr.io/cran/TAF/man/TAF-package.html)
-ICES pkgs | [GitHub repos](https://github.com/ices-tools-prod) and [release history](release_history.md)
+icesTAF   | [CRAN](https://github.com/ices-tools-prod/icesTAF) homepage and [help](https://rdrr.io/cran/TAF/man/) pages
+TAF       | [CRAN](https://github.com/ices-tools-prod/TAF) homepage and [help](https://rdrr.io/cran/TAF/man/TAF-package.html) pages
+ICES pkgs | [GitHub](https://github.com/ices-tools-prod) repositories and release [history](release_history.md)
 
 ## General Principles
 
