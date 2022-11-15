@@ -1,39 +1,26 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-  body {margin-bottom:14ex; margin-left:4ex; margin-right:4ex; margin-top:4ex;
-    max-width:80ex; text-align:justify}
-  h1,h2,h3 {font-family:monospace; color:dimgray}
-  h2 {font-size:1.6em; margin-top:5ex}
-  h3 {font-size:1.2em; margin-bottom:1ex; margin-top:3ex}
-  a {text-decoration:none}
-</style>
-<title>ICES packages on CRAN</title>
-<body>
+# ICES packages on CRAN
 
-<h1>ICES packages on CRAN</h1>
+Package     | CRAN                                                          | GitHub
+----------- | ------------------------------------------------------------- | ------
+icesAdvice  | [cran](https://cran.r-project.org/package=icesAdvice)         | [github](https://github.com/ices-tools-prod/icesAdvice)
+icesConnect | [cran](https://cran.r-project.org/package=icesConnect)        | [github](https://github.com/ices-tools-prod/icesConnect)
+icesDatras  | [cran](https://cran.r-project.org/package=icesDatras)         | [github](https://github.com/ices-tools-prod/icesDatras)
+icesDatsu   | [icesDatsu](https://cran.r-project.org/package=icesDatsu)     | [github](https://github.com/ices-tools-prod/icesDatsu)
+icesDatsuQC | [icesDatsuQC](https://cran.r-project.org/package=icesDatsuQC) | [github](https://github.com/ices-tools-prod/icesDatsuQC)
+icesSAG     | [icesSAG](https://cran.r-project.org/package=icesSAG)         | [github](https://github.com/ices-tools-prod/icesSAG)
+icesSD      | [icesSD](https://cran.r-project.org/package=icesSD)           | [github](https://github.com/ices-tools-prod/icesSD)
+icesTAF     | [icesTAF](https://cran.r-project.org/package=icesTAF)         | [github](https://github.com/ices-tools-prod/icesTAF)
+icesVocab   | [icesVocab](https://cran.r-project.org/package=icesVocab)     | [github](https://github.com/ices-tools-prod/icesVocab)
+TAF         | [TAF](https://cran.r-project.org/package=TAF)                 | [github](https://github.com/ices-tools-prod/TAF)
+rct3        | [rct3](https://cran.r-project.org/package=rct3)               | [github](https://github.com/ices-tools-prod/rct3)
 
-<table>
-  <tr><td><a href="#icesAdvice">icesAdvice</a><td><a href="https://cran.r-project.org/package=icesAdvice">cran</a><td><a href="https://github.com/ices-tools-prod/icesAdvice">github</a>
-  <tr><td><a href="#icesConnect">icesConnect</a><td><a href="https://cran.r-project.org/package=icesConnect">cran</a><td><a href="https://github.com/ices-tools-prod/icesConnect">github</a>
-  <tr><td><a href="#icesDatras">icesDatras</a><td><a href="https://cran.r-project.org/package=icesDatras">cran</a><td><a href="https://github.com/ices-tools-prod/icesDatras">github</a>
-  <tr><td><a href="#icesDatsu">icesDatsu</a><td><a href="https://cran.r-project.org/package=icesDatsu">cran</a><td><a href="https://github.com/ices-tools-prod/icesDatsu">github</a>
-  <tr><td><a href="#icesDatsuQC">icesDatsuQC</a><td><a href="https://cran.r-project.org/package=icesDatsuQC">cran</a><td><a href="https://github.com/ices-tools-prod/icesDatsuQC">github</a>
-  <tr><td><a href="#icesSAG">icesSAG</a><td><a href="https://cran.r-project.org/package=icesSAG">cran</a><td><a href="https://github.com/ices-tools-prod/icesSAG">github</a>
-  <tr><td><a href="#icesSD">icesSD</a><td><a href="https://cran.r-project.org/package=icesSD">cran</a><td><a href="https://github.com/ices-tools-prod/icesSD">github</a>
-  <tr><td><a href="#icesTAF">icesTAF</a><td><a href="https://cran.r-project.org/package=icesTAF">cran</a><td><a href="https://github.com/ices-tools-prod/icesTAF">github</a>
-  <tr><td><a href="#icesVocab">icesVocab</a><td><a href="https://cran.r-project.org/package=icesVocab">cran</a><td><a href="https://github.com/ices-tools-prod/icesVocab">github</a>
-  <tr><td><a href="#TAF">TAF</a><td><a href="https://cran.r-project.org/package=TAF">cran</a><td><a href="https://github.com/ices-tools-prod/TAF">github</a>
-  <tr><td><a href="#rct3">rct3</a><td><a href="https://cran.r-project.org/package=rct3">cran</a><td><a href="https://github.com/ices-tools-prod/rct3">github</a>
-</table>
+## Release history
 
-<h2>Release history</h2>
+Compact release history of ICES packages, with CRAN and GitHub tags.
 
-<p>Compact release history of ICES packages, with CRAN and GitHub tags.
+### icesAdvice
 
-<h3 id="icesAdvice">icesAdvice</h3>
-
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 2.1.1    2022-02-17   2022-02-18  29  1138d7f  -
 2.1.0    2021-01-22   -           18  07febfb  agesFbar
@@ -46,18 +33,18 @@
 1.2-0    2017-02-10   2017-02-11   5  3af7a6c  DLS3.2
 1.1-0    2016-05-18   2016-05-18   4  66c78c4  Bpa, Fpa
 1.0-0    2016-05-17   -            2  91e7f3a  sigmaCI, sigmaPA
-</pre>
+```
 
-<h3 id="icesConnect">icesConnect</h3>
+### icesConnect
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 1.0.0    2022-02-09   2022-02-10   6  a624458  clear_token, decode_token, ices_get_jwt, ices_patch_jwt, ices_post_jwt, ices_request_jwt, ices_token, set_username, token_expiration, token_user
-</pre>
+```
 
-<h3 id="icesDatras">icesDatras</h3>
+### icesDatras
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 1.4.0    2022-02-10   2022-02-10  12  ac7345e  getCPUEAge, getCPUELength, getFlexFile, getLTassessment
 1.3-0    2019-03-12   2019-03-12  11  bba82f9  getIndices
@@ -67,26 +54,26 @@
 1.0-2    2016-08-04   -            6  94d3dff  -
 1.0-1    2016-08-04   -            6  b332c5c  -
 1.0-0    2016-08-04   2016-08-04   5  8ebbca2  getCAdata, getDatrasDataOverview, getHHdata, getHLdata, getSurveyInsertDate, getSurveyList, getSurveyYearList, getSurveyYearQuarterList
-</pre>
+```
 
-<h3 id="icesDatsu">icesDatsu</h3>
+### icesDatsu
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 1.1.0    2022-02-17   2022-02-17   5  ee259fc  getListQCChecks
 1.0.0    2022-02-11   2022-02-11   5  7be73ee  datsu_api, getDataFieldsDescription, getDataverIDs, getMySessionsList, getRecordIDs, getScreeningSessionDetails, getScreeningSessionMessages, getScreeningSessionsList, uploadDatsuFileFireAndForget
-</pre>
+```
 
-<h3 id="icesDatsuQC">icesDatsuQC</h3>
+### icesDatsuQC
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 1.0.0    2022-02-17   2022-02-18   2  74baf3f  runQCChecks
-</pre>
+```
 
-<h3 id="icesSAG">icesSAG</h3>
+### icesSAG
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 1.4.0    2022-02-17   2022-02-17  23  d91335f  getCustomColumns
 1.3-6    2019-03-13   2019-03-12  22  327c81e  -
@@ -99,20 +86,20 @@
 1.2-0    2016-12-07   2016-12-07   8  f716748  get*Graph, getSAGGraphs
 1.1-0    2016-10-29   -            7  b566f2d  findAssessmentKey, getSAG
 1.0-0    2016-08-08   2016-08-09   4  c3672ce  getFishStockReferencePoints, getListStocks, getSummaryTable
-</pre>
+```
 
-<h3 id="icesSD">icesSD</h3>
+### icesSD
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 2.0.0    2022-02-17   2022-02-18   3  68c8af2  sd_api
 1.1-0    2017-05-31   -            2  b3cd7f8  -
 1.0-0    2016-11-10   -            2  94fb3e1  getSD, showStock
-</pre>
+```
 
-<h3 id="icesTAF">icesTAF</h3>
+### icesTAF
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 3.6.0    2020-10-19   2020-10-20  83  b6890db  draft.data.script, read.bib, roxy_tag_parse, taf.boot.path, taf.data.path, taf.roxygenise, taf.sources
 3.5-0    2020-05-15   2020-05-15  76  7bf1dac  clean.data, detach.packages
@@ -142,11 +129,11 @@
 1.2-0    2017-05-19   -           11  5a85a20  cp, long2taf, mkdir, read.taf, sourceTAF, taf2xtab, tt, write.taf, xtab2taf
 1.1-0    2017-04-27   -            5  cf68d9c  flr2taf, taf2long
 1.0-0    2017-02-17   -            4  69beeb4  dos2unix, unix2dos
-</pre>
+```
 
-<h3 id="icesVocab">icesVocab</h3>
+### icesVocab
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 1.2.0    2022-02-10   2022-02-10   7  9f19476  -
 1.1.9    2021-01-14   2021-01-14   7  14a5136  -
@@ -157,18 +144,18 @@
 1.1-2    2016-12-08   2016-12-08   7  cb37273  -
 1.1-0    2016-12-08   2016-12-08   7  0bc8120  findAphia, findCode, findCodeType
 1.0-0    2016-09-14   -            4  d91e2ba  getCodeDetail, getCodeList, getCodeTypeList
-</pre>
+```
 
-<h3 id="rct3">rct3</h3>
+### rct3
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 1.0.4    2020-09-23   2020-09-23  91  c86e8e3  rct3
-</pre>
+```
 
-<h3 id="TAF">TAF</h3>
+### TAF
 
-<pre>
+```
          Description  CRAN        KB  GitHub   Functions
 4.0.0    2021-04-06   2021-04-07  91  0e7c09f  icesTAF 3.6.0 minus draft.data.script, taf.roxygenise
-</pre>
+```
