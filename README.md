@@ -27,9 +27,9 @@ URL                                                                             
 ### Packages
 
 Package   | Links
---------- | -----------------------------------------------------------------------------------------------------------------------
-icesTAF   | [CRAN](https://github.com/ices-tools-prod/icesTAF) homepage and [help](https://rdrr.io/cran/TAF/man/) pages
-TAF       | [CRAN](https://github.com/ices-tools-prod/TAF) homepage and [help](https://rdrr.io/cran/TAF/man/TAF-package.html) pages
+--------- | -----------------------------------------------------------------------------------------------------------------------------------------
+icesTAF   | [CRAN](https://github.com/ices-tools-prod/icesTAF) homepage and [help](https://cran.r-project.org/web/packages/icesTAF/icesTAF.pdf) pages
+TAF       | [CRAN](https://github.com/ices-tools-prod/TAF) homepage and [help](https://cran.r-project.org/web/packages/TAF/TAF.pdf) pages
 ICES pkgs | [GitHub](https://github.com/ices-tools-prod) repositories and release [history](release_history.md)
 
 ## General Principles
@@ -92,4 +92,4 @@ executable is required, while Linux and macOS executables are optional.
 
 See `taf.bootstrap` and `process.bib` in:
 
-https://cran.r-project.org/web/packages/icesTAF/icesTAF.pdf
+https://cran.r-project.org/web/packages/TAF/TAF.pdf
