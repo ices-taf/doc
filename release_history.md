@@ -68,6 +68,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+1.0.1  2023-03-19   2023-03-21   3  1639966  -
 1.0.0  2022-02-17   2022-02-18   2  74baf3f  runQCChecks
 ```
 
