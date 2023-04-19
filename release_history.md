@@ -101,6 +101,10 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+4.2.0  2023-03-21   2023-03-21  20  02d6308  -
+4.1.0  2023-01-23   2023-01-23  19  705fad5  dir.tree
+4.0.2  2023-01-11   2023-01-11  17  fab733e  download.analysis, run.analysis, taf.skeleton.sa.org plus re-export TAF
+4.0.0  2022-09-07   2022-09-07  11  2508d02  add.data.script, install.deps minus TAF 4.0.0
 3.6.0  2020-10-19   2020-10-20  83  b6890db  draft.data.script, read.bib, roxy_tag_parse, taf.boot.path, taf.data.path, taf.roxygenise, taf.sources
 3.5-0  2020-05-15   2020-05-15  76  7bf1dac  clean.data, detach.packages
 3.4-0  2020-04-07   2020-04-07  74  86134fc  is.r.package, long2xtab, taf.libPaths, taf.session, xtab2long
@@ -157,5 +161,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+4.2.0  2023-03-20   2023-03-21  88  5de3530  boot.dir, boot.dir.inside, boot.exists, clean.boot, model.dir, model.script
+4.1.0  2023-01-20   2023-01-23  85  19894c3  taf2html plus aliases: make.all, make.taf, source.all, source.dir, source.taf, taf.boot
 4.0.0  2021-04-06   2021-04-07  91  0e7c09f  icesTAF 3.6.0 minus draft.data.script, taf.roxygenise
 ```
