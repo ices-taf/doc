@@ -14,7 +14,7 @@ to improve. A **note**, on the other hand, is a flag that may be related to an
 intentional feature in an unusal TAF analysis.
 
 There are three points in time when TAF rules and recommendations are checked:
-the first scan (before anything is run), the middle scan (after bootstrap
+the first scan (before anything is run), the middle scan (after the boot
 procedure), and final scan (after R scripts have run).
 
 ## 1. First scan
@@ -32,18 +32,13 @@ procedure), and final scan (after R scripts have run).
 (b) The metadata files `DATA.bib` and `SOFTWARE.bib` can only exist in these
     file locations:
 
-- `bootstrap/DATA.bib`
-- `bootstrap/SOFTWARE.bib`
+- `boot/DATA.bib`
+- `boot/SOFTWARE.bib`
 
 **1.1.2 Content**
 
-(a) Files inside the `bootstrap/initial` subdirectory cannot be accessed by TAF
-    scripts, except in a custom `bootstrap.R` script:
-
-- `bootstrap/initial/*`
-
-(b) These functions cannot appear in TAF scripts, except in a custom
-    `bootstrap.R` script:
+(a) These functions cannot appear in TAF scripts, except in a custom boot
+    script:
 
 - `.libPaths`
 - `download`
@@ -51,13 +46,13 @@ procedure), and final scan (after R scripts have run).
 - `install_github`
 - `install.packages`
 - `process.bib`
-- `taf.bootstrap`
+- `taf.boot`
 
-(d) All text files that have non-ASCII characters must be encoded as UTF-8:
+(b) All text files that have non-ASCII characters must be encoded as UTF-8:
 
 - `enc.latin1`
 
-(e) Each TAF script should only write to its corresponding directory:
+(c) Each TAF script should only write to its corresponding directory:
 
 - `data.R` writes to `data`
 - `model.R` writes to `model`
@@ -68,8 +63,8 @@ procedure), and final scan (after R scripts have run).
 
 ### 1.3 Recommendations (note)
 
-(a) This string should not appear in TAF scripts, except in a custom
-    `bootstrap.R` script:
+(a) This string should not appear in TAF scripts, except in a custom boot
+    script:
 
 - `http` (except stockassessment.org?)
 
@@ -86,13 +81,9 @@ procedure), and final scan (after R scripts have run).
 - `data.R`
 - `model.R`
 - `output.R`
-- `bootstrap/DATA.bib`
+- `boot/DATA.bib`
 
-(b) Raise a flag if a custom bootstrap file is found:
-
-- `bootstrap.R`
-
-(c) Authors in `SOFTWARE.bib` are spelled out as
+(b) Authors in `SOFTWARE.bib` are spelled out as
    `{First M Last and First M Last and First M Last}`, so the `author` field has
    no commas:
 
@@ -100,7 +91,7 @@ procedure), and final scan (after R scripts have run).
 
 ## 2. Middle scan
 
-*Examines files that were created during the bootstrap procedure*
+*Examines files that were created during the boot procedure*
 
 ## 3. Final scan
 

@@ -13,7 +13,7 @@ following commands:
 
 ```r
 clean()
-sourceAll()
+source.all()
 ```
 
 This ensures that the files found in the `data`, `output`, and `report` folders

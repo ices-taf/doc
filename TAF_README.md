@@ -6,8 +6,8 @@ Then open R in the `{repoName}` directory and run:
 
 ```
 library(icesTAF)
-taf.bootstrap()
-sourceAll()
+taf.boot()
+source.all()
 ```
 
 ## Explore results

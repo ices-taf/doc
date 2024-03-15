@@ -6,4 +6,4 @@
 *.Rproj
 
 # ignore installed packages
-bootstrap/library/
+boot/library/

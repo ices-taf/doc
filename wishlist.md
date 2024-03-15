@@ -23,7 +23,7 @@
 ### Documentation
 
 - Intro video
-- Bootstrap video
+- Boot video
 - Wiki frontpage
 - Combine Doc and Wiki
 - TAF paper
@@ -41,11 +41,3 @@
 - Machine-readable input and output (qc, products, disseminate)
 - Standard repo names `yyyy_stock.code_type`
 - Standard filenames and field names (check out RAM Legacy)
-
-### Suggestions
-
-Avoid ambiguity and confusion, by renaming
-```bootstrap```
-to
-```boot```
-[Jose De Oliveira]

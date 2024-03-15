@@ -57,7 +57,7 @@ source("report_tables.R")
 ## TAF Data Flow
 
 The TAF [data presentation](data-presentation.pdf) describes the flow of data
-from `bootstrap/initial/data` to `bootstrap/data` and finally to `data`.
+from `boot/initial/data` to `boot/data` and finally to `data`.
 
 ## TAF Data Format
 
@@ -67,16 +67,15 @@ from `bootstrap/initial/data` to `bootstrap/data` and finally to `data`.
 
 Tonnes, thousands of individuals
 
-## Bootstrap procedure
+## Boot procedure
 
 ### Initial folder
 
-The `bootstrap/initial` folder contains the initial *data* and *software* that
-are not available online from another repository. These files are the basis of
-all subsequent analysis, and guarantee that the TAF analysis can be rerun later
-and will reproduce the original results, even if data in the underlying
-databases (outside of TAF) may have changed after the original analysis was
-submitted.
+The `boot/initial` folder contains the initial *data* and *software* that are
+not available online from another repository. These files are the basis of all
+subsequent analysis, and guarantee that the TAF analysis can be rerun later and
+will reproduce the original results, even if data in the underlying databases
+(outside of TAF) may have changed after the original analysis was submitted.
 
 One objective of TAF is to document the data preparation. Therefore, the initial
 data files should represent the original data before the main preprocessing and
@@ -85,11 +84,11 @@ of an SQL database query, selecting one species of interest and all relevant
 data columns for the analysis.
 
 When using software that is not available online from another repository,
-`bootstrap/initial/software` contains the model source and executable. A Windows
+`boot/initial/software` contains the model source and executable. A Windows
 executable is required, while Linux and macOS executables are optional.
 
 ### Metadata
 
-See `taf.bootstrap` and `process.bib` in:
+See `taf.boot` and `process.bib` in:
 
 https://cran.r-project.org/web/packages/TAF/TAF.pdf
