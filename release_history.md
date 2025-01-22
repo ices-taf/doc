@@ -46,6 +46,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+1.4.1  2023-05-08   2023-05-08  12  f1cb0c7  -
 1.4.0  2022-02-10   2022-02-10  12  ac7345e  getCPUEAge, getCPUELength, getFlexFile, getLTassessment
 1.3-0  2019-03-12   2019-03-12  11  bba82f9  getIndices
 1.2-0  2017-01-10   2017-01-10  10  bb68b58  -
@@ -60,6 +61,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+1.2.0  2024-10-24   2024-10-24   5  925bb6f  _
 1.1.0  2022-02-17   2022-02-17   5  ee259fc  getListQCChecks
 1.0.0  2022-02-11   2022-02-11   5  7be73ee  datsu_api, getDataFieldsDescription, getDataverIDs, getMySessionsList, getRecordIDs, getScreeningSessionDetails, getScreeningSessionMessages, getScreeningSessionsList, uploadDatsuFileFireAndForget
 ```
@@ -68,6 +70,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+1.2.0  2024-10-25   2024_10_25   3  b7331a4  runVocabChecks
 1.0.1  2023-03-19   2023-03-21   3  1639966  -
 1.0.0  2022-02-17   2022-02-18   2  74baf3f  runQCChecks
 ```
@@ -76,6 +79,8 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+1.5.0  2024-10-24   2024-10-24  22  5375fc0  ices_get, ices_post, sag_api, sag_messages, sag_use_token
+1.4.1  2023-05-11   2023-05-11  23  12e5c84  -
 1.4.0  2022-02-17   2022-02-17  23  d91335f  getCustomColumns
 1.3-6  2019-03-13   2019-03-12  22  327c81e  -
 1.3-5  2018-05-02   -           20  588336e  getStockSourceData
@@ -93,6 +98,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+2.1.0  2024-10-24   2024-10-24   3  2101619  showStock
 2.0.0  2022-02-17   2022-02-18   3  68c8af2  sd_api
 1.1-0  2017-05-31   -            2  b3cd7f8  -
 1.0-0  2016-11-10   -            2  94fb3e1  getSD, showStock
