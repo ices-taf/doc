@@ -39,7 +39,7 @@ The TAF stock assessment workflow is scripted in a series of R scripts.
 Core scripts | Purpose
 ------------ | -------
 `data.R`     | preprocess data, write TAF data tables
-`model.R`    | run analysis, write model results
+`method.R`   | run analysis, write model results
 `output.R`   | extract results of interest, write TAF output tables
 
 Optional scripts include `report.R` (prepare plots and tables for the report)
