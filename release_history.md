@@ -1,18 +1,18 @@
 # ICES packages on CRAN
 
-Package     | CRAN                                                          | GitHub
------------ | ------------------------------------------------------------- | ------
-icesAdvice  | [cran](https://cran.r-project.org/package=icesAdvice)         | [github](https://github.com/ices-tools-prod/icesAdvice)
-icesConnect | [cran](https://cran.r-project.org/package=icesConnect)        | [github](https://github.com/ices-tools-prod/icesConnect)
-icesDatras  | [cran](https://cran.r-project.org/package=icesDatras)         | [github](https://github.com/ices-tools-prod/icesDatras)
-icesDatsu   | [icesDatsu](https://cran.r-project.org/package=icesDatsu)     | [github](https://github.com/ices-tools-prod/icesDatsu)
-icesDatsuQC | [icesDatsuQC](https://cran.r-project.org/package=icesDatsuQC) | [github](https://github.com/ices-tools-prod/icesDatsuQC)
-icesSAG     | [icesSAG](https://cran.r-project.org/package=icesSAG)         | [github](https://github.com/ices-tools-prod/icesSAG)
-icesSD      | [icesSD](https://cran.r-project.org/package=icesSD)           | [github](https://github.com/ices-tools-prod/icesSD)
-icesTAF     | [icesTAF](https://cran.r-project.org/package=icesTAF)         | [github](https://github.com/ices-tools-prod/icesTAF)
-icesVocab   | [icesVocab](https://cran.r-project.org/package=icesVocab)     | [github](https://github.com/ices-tools-prod/icesVocab)
-TAF         | [TAF](https://cran.r-project.org/package=TAF)                 | [github](https://github.com/ices-tools-prod/TAF)
-rct3        | [rct3](https://cran.r-project.org/package=rct3)               | [github](https://github.com/ices-tools-prod/rct3)
+Package     | CRAN                                                   | GitHub
+----------- | ------------------------------------------------------ | --------------------------------------------------------
+icesAdvice  | [cran](https://cran.r-project.org/package=icesAdvice)  | [github](https://github.com/ices-tools-prod/icesAdvice)
+icesConnect | [cran](https://cran.r-project.org/package=icesConnect) | [github](https://github.com/ices-tools-prod/icesConnect)
+icesDatras  | [cran](https://cran.r-project.org/package=icesDatras)  | [github](https://github.com/ices-tools-prod/icesDatras)
+icesDatsu   | [cran](https://cran.r-project.org/package=icesDatsu)   | [github](https://github.com/ices-tools-prod/icesDatsu)
+icesDatsuQC | [cran](https://cran.r-project.org/package=icesDatsuQC) | [github](https://github.com/ices-tools-prod/icesDatsuQC)
+icesSAG     | [cran](https://cran.r-project.org/package=icesSAG)     | [github](https://github.com/ices-tools-prod/icesSAG)
+icesSD      | [cran](https://cran.r-project.org/package=icesSD)      | [github](https://github.com/ices-tools-prod/icesSD)
+icesTAF     | [cran](https://cran.r-project.org/package=icesTAF)     | [github](https://github.com/ices-tools-prod/icesTAF)
+icesVocab   | [cran](https://cran.r-project.org/package=icesVocab)   | [github](https://github.com/ices-tools-prod/icesVocab)
+rct3        | [rct3](https://cran.r-project.org/package=rct3)        | [github](https://github.com/ices-tools-prod/rct3)
+TAF         | [cran](https://cran.r-project.org/package=TAF)         | [github](https://github.com/ices-tools-prod/TAF)
 
 ## Release history
 
@@ -39,6 +39,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+1.1.4  2025-04-30   2025-04-30   8  812afc4  clear_username, get_username, ices_get, ices_post
 1.0.0  2022-02-09   2022-02-10   6  a624458  clear_token, decode_token, ices_get_jwt, ices_patch_jwt, ices_post_jwt, ices_request_jwt, ices_token, set_username, token_expiration, token_user
 ```
 
@@ -61,7 +62,8 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
-1.2.0  2024-10-24   2024-10-24   5  925bb6f  _
+1.2.1  2025-05-02   2025-05-02   6  2f8717b  uploadDatsuFile
+1.2.0  2024-10-24   2024-10-24   5  925bb6f  -
 1.1.0  2022-02-17   2022-02-17   5  ee259fc  getListQCChecks
 1.0.0  2022-02-11   2022-02-11   5  7be73ee  datsu_api, getDataFieldsDescription, getDataverIDs, getMySessionsList, getRecordIDs, getScreeningSessionDetails, getScreeningSessionMessages, getScreeningSessionsList, uploadDatsuFileFireAndForget
 ```
@@ -79,7 +81,8 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
-1.5.0  2024-10-24   2024-10-24  22  5375fc0  ices_get, ices_post, sag_api, sag_messages, sag_use_token
+1.6.2  2025-05-03   2025-05-03  24  c62a7e0  sag_get, sag_post, uploadStock, writeSAGxml
+1.5.0  2024-10-24   2024-10-24  22  5375fc0  sag_api, sag_messages, sag_use_token
 1.4.1  2023-05-11   2023-05-11  23  12e5c84  -
 1.4.0  2022-02-17   2022-02-17  23  d91335f  getCustomColumns
 1.3-6  2019-03-13   2019-03-12  22  327c81e  -
@@ -108,6 +111,7 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+4.3.0  2025-09-02   2025-09-02  21  -        artifact, check.artifact, get.artifact, read.artifacts, taf_api, taf_get, taf_post, write.artifacts
 4.2.0  2023-03-21   2023-03-21  20  02d6308  -
 4.1.0  2023-01-23   2023-01-23  19  705fad5  dir.tree
 4.0.2  2023-01-11   2023-01-11  17  fab733e  download.analysis, run.analysis, taf.skeleton.sa.org plus re-export TAF
@@ -146,6 +150,8 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+1.3.2  2025-05-26   2025-05-26  10  6ee2ad2  -
+1.3.1  2025-05-01   2025-05-01   9  11515e6  getCodeTypeRelation, linkCodes, vocab_api, vocab_get
 1.2.0  2022-02-10   2022-02-10   7  9f19476  -
 1.1.9  2021-01-14   2021-01-14   7  14a5136  -
 1.1.8  2020-09-28   2020-09-28   7  5263c77  -
@@ -168,6 +174,8 @@ Compact release history of ICES packages, with CRAN and GitHub tags.
 
 ```
        Description  CRAN        KB  GitHub   Functions
+4.3.1  2025-09-18   2025-09-18 147  ada8cae  -
+4.3.0  2025-09-02   2025-09-02 146  58f03f3  check.software, ddim, dir.tree, draft.readme, git.repo, install.deps, pdeps, taf.example, taf.libraries, taf.pkg, wide2long
 4.2.0  2023-03-20   2023-03-21  88  5de3530  boot.dir, boot.dir.inside, boot.exists, clean.boot, model.dir, model.script
 4.1.0  2023-01-20   2023-01-23  85  19894c3  taf2html plus aliases: make.all, make.taf, source.all, source.dir, source.taf, taf.boot
 4.0.0  2021-04-06   2021-04-07  91  0e7c09f  icesTAF 3.6.0 minus draft.data.script, taf.roxygenise
